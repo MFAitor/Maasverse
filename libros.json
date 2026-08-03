@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "La asesina y el pirata",
+    "originalTitle": "The Assassin and the Pirate Lord",
+    "series": "Trono de Cristal",
+    "order": 1,
+    "type": "Novela corta",
+    "pages": 70,
+    "releaseDate": "2012-03-06",
+    "cover": "covers/the_assassin_and_the_pirate_lord.jpg",
+    "description": "Celaena Sardothien acepta una misión para el Rey de los Piratas que cambiará su forma de ver el mundo."
+  },
+  {
+    "id": 2,
+    "title": "La asesina y la sanadora",
+    "originalTitle": "The Assassin and the Healer",
+    "series": "Trono de Cristal",
+    "order": 2,
+    "type": "Novela corta",
+    "pages": 45,
+    "releaseDate": "2012-04-03",
+    "cover": "covers/the_assassin_and_the_healer.jpg",
+    "description": "Celaena se encuentra con una joven sanadora mientras cumple una misión."
+  },
+  {
+    "id": 3,
+    "title": "Trono de Cristal",
+    "originalTitle": "Throne of Glass",
+    "series": "Trono de Cristal",
+    "order": 3,
+    "type": "Novela",
+    "pages": 432,
+    "releaseDate": "2012-08-07",
+    "cover": "covers/throne_of_glass.jpg",
+    "description": "Tras un año de trabajos forzados, Celaena recibe una oportunidad para recuperar su libertad."
+  }
+]

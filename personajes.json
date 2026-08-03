@@ -1,0 +1,9 @@
+{
+  "id": 4,
+  "name": "Dorian Havilliard",
+  "image": "characters/dorian.jpg",
+  "firstBookId": 3,
+  "firstBookTitle": "Trono de Cristal",
+  "books": [3],
+  "description": "Príncipe heredero del reino de Adarlan."
+}
