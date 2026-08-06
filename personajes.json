@@ -5,7 +5,14 @@
     "image": "characters/feyre_archeron.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1,2,3,4,5,16],
+    "books": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      16
+    ],
     "description": "Cazadora humana que mata a un faérico disfrazado de lobo y es arrastrada a la Corte Primavera como pago. Protagonista de la saga."
   },
   {
@@ -14,7 +21,11 @@
     "image": "characters/tamlin.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1,2,3],
+    "books": [
+      1,
+      2,
+      3
+    ],
     "description": "Alto Señor de la Corte Primavera. Bajo una maldición, mantiene su corte en un estado de decadencia y secretismo."
   },
   {
@@ -23,7 +34,13 @@
     "image": "characters/lucien_vanserra.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1,2,3,4,5],
+    "books": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
     "description": "Emisario de la Corte Primavera y mano derecha de Tamlin. Hijo del Alto Señor de la Corte Otoño."
   },
   {
@@ -32,7 +49,14 @@
     "image": "characters/rhysand.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1,2,3,4,5,16],
+    "books": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      16
+    ],
     "description": "Alto Señor de la Corte Noche. Aparece como un antagonista ambiguo y poderoso bajo el yugo de Amarantha."
   },
   {
@@ -41,7 +65,9 @@
     "image": "characters/amarantha.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1],
+    "books": [
+      1
+    ],
     "description": "General de Hybern que se autoproclama reina de Prythian. Impone una cruel maldición sobre los Altos Señores y sus cortes."
   },
   {
@@ -50,7 +76,14 @@
     "image": "characters/nesta_archeron.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1,2,3,4,5,16],
+    "books": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      16
+    ],
     "description": "Hermana mayor de Feyre. Orgullosa, fría y protectora a su manera."
   },
   {
@@ -59,7 +92,13 @@
     "image": "characters/elain_archeron.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1,2,3,4,5],
+    "books": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
     "description": "Hermana mediana de Feyre. Dulce, soñadora y aficionada a la jardinería."
   },
   {
@@ -68,7 +107,11 @@
     "image": "characters/alis.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1,2,3],
+    "books": [
+      1,
+      2,
+      3
+    ],
     "description": "Sirvienta faérica de la Corte Primavera que cuida de Feyre y le ofrece información valiosa."
   },
   {
@@ -77,7 +120,11 @@
     "image": "characters/the_suriel.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1,2,3],
+    "books": [
+      1,
+      2,
+      3
+    ],
     "description": "Criatura antigua y omnisciente que responde preguntas a cambio de un trato. Aparece en varios momentos clave."
   },
   {
@@ -86,7 +133,10 @@
     "image": "characters/the_attor.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1,2],
+    "books": [
+      1,
+      2
+    ],
     "description": "Criatura alada y sádica al servicio de Amarantha. Actúa como mensajero y torturador."
   },
   {
@@ -95,7 +145,9 @@
     "image": "characters/andras.jpg",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
-    "books": [1],
+    "books": [
+      1
+    ],
     "description": "Faérico de la Corte Primavera que se hace pasar por lobo. Su muerte a manos de Feyre desencadena toda la historia."
   },
   {
@@ -104,7 +156,13 @@
     "image": "characters/cassian.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3,4,5,16],
+    "books": [
+      2,
+      3,
+      4,
+      5,
+      16
+    ],
     "description": "General de los ejércitos de Illyria y miembro del Círculo Íntimo de Rhysand. Guerrero letal y leal."
   },
   {
@@ -113,7 +171,13 @@
     "image": "characters/azriel.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3,4,5,16],
+    "books": [
+      2,
+      3,
+      4,
+      5,
+      16
+    ],
     "description": "Spymaster de la Corte Noche y portador de las sombras. Miembro del Círculo Íntimo y hermano de armas de Cassian y Rhysand."
   },
   {
@@ -122,7 +186,13 @@
     "image": "characters/amren.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3,4,5,16],
+    "books": [
+      2,
+      3,
+      4,
+      5,
+      16
+    ],
     "description": "Segunda al mando de Rhysand. Ser antiguo y poderoso atrapado en un cuerpo faérico. Miembro del Círculo Íntimo."
   },
   {
@@ -131,7 +201,12 @@
     "image": "characters/morrigan.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3,4,5],
+    "books": [
+      2,
+      3,
+      4,
+      5
+    ],
     "description": "Prima de Rhysand y miembro del Círculo Íntimo. Conoce la verdad y posee un poder único relacionado con ella."
   },
   {
@@ -140,7 +215,11 @@
     "image": "characters/nuala.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3,4],
+    "books": [
+      2,
+      3,
+      4
+    ],
     "description": "Media-wraith al servicio de Rhysand. Sirvienta y espía discreta de la Casa del Viento."
   },
   {
@@ -149,7 +228,11 @@
     "image": "characters/cerridwen.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3,4],
+    "books": [
+      2,
+      3,
+      4
+    ],
     "description": "Media-wraith gemela de Nuala. Sirvienta y espía de confianza de la Corte Noche."
   },
   {
@@ -158,7 +241,10 @@
     "image": "characters/bone_carver.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3],
+    "books": [
+      2,
+      3
+    ],
     "description": "Ser antiguo encarcelado bajo la Montaña de la Prisión. Posee conocimiento de secretos muy antiguos."
   },
   {
@@ -167,7 +253,10 @@
     "image": "characters/the_weaver.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3],
+    "books": [
+      2,
+      3
+    ],
     "description": "Criatura ancestral y peligrosa que habita en el bosque. Guardiana de objetos poderosos."
   },
   {
@@ -176,7 +265,11 @@
     "image": "characters/tarquin.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3,4],
+    "books": [
+      2,
+      3,
+      4
+    ],
     "description": "Alto Señor de la Corte Verano. Joven, idealista y dispuesto a cambiar las antiguas tradiciones."
   },
   {
@@ -185,7 +278,10 @@
     "image": "characters/cresseida.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3],
+    "books": [
+      2,
+      3
+    ],
     "description": "Princesa de la Corte Verano y prima de Tarquin. Desconfiada y protectora de su corte."
   },
   {
@@ -194,7 +290,10 @@
     "image": "characters/varian.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3],
+    "books": [
+      2,
+      3
+    ],
     "description": "Príncipe de la Corte Verano y hermano de Cresseida. Guerrero y aliado potencial."
   },
   {
@@ -203,7 +302,10 @@
     "image": "characters/ianthe.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3],
+    "books": [
+      2,
+      3
+    ],
     "description": "Sacerdotisa de la Corte Primavera. Ambiciosa, manipuladora y cercana a Tamlin."
   },
   {
@@ -212,7 +314,10 @@
     "image": "characters/jurian.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3],
+    "books": [
+      2,
+      3
+    ],
     "description": "Antiguo guerrero humano resucitado por el Rey de Hybern. Busca venganza tras siglos de tormento."
   },
   {
@@ -221,7 +326,10 @@
     "image": "characters/king_of_hybern.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3],
+    "books": [
+      2,
+      3
+    ],
     "description": "Soberano de Hybern. Antiguo, poderoso y decidido a recuperar el control sobre los humanos y los faéricos."
   },
   {
@@ -230,7 +338,10 @@
     "image": "characters/keir.jpg",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
-    "books": [2,3],
+    "books": [
+      2,
+      3
+    ],
     "description": "Señor de la Corte de la Noche Oscura (Hewn City) y padre de Morrigan. Ambicioso y despreciable."
   },
   {
@@ -239,7 +350,10 @@
     "image": "characters/thesan.jpg",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
-    "books": [3,4],
+    "books": [
+      3,
+      4
+    ],
     "description": "Alto Señor de la Corte Amanecer. Anfitrión del consejo de guerra de los Altos Señores y poseedor de habilidades de sanación."
   },
   {
@@ -248,7 +362,11 @@
     "image": "characters/helion.jpg",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
-    "books": [3,4,5],
+    "books": [
+      3,
+      4,
+      5
+    ],
     "description": "Alto Señor de la Corte Día. Poderoso, carismático y poseedor de un conocimiento antiguo sobre hechizos y magia."
   },
   {
@@ -257,7 +375,10 @@
     "image": "characters/kallias.jpg",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
-    "books": [3,4],
+    "books": [
+      3,
+      4
+    ],
     "description": "Alto Señor de la Corte Invierno. Reservado y protector de su pueblo tras los traumas del reinado de Amarantha."
   },
   {
@@ -266,7 +387,10 @@
     "image": "characters/viviane.jpg",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
-    "books": [3,4],
+    "books": [
+      3,
+      4
+    ],
     "description": "Dama de la Corte Invierno y esposa de Kallias. Amiga cercana de Morrigan y figura clave en la alianza."
   },
   {
@@ -275,7 +399,9 @@
     "image": "characters/beron_vanserra.jpg",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
-    "books": [3],
+    "books": [
+      3
+    ],
     "description": "Alto Señor de la Corte Otoño y padre de Lucien y Eris. Cruel, ambicioso y difícil de aliar."
   },
   {
@@ -284,7 +410,10 @@
     "image": "characters/eris_vanserra.jpg",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
-    "books": [3,5],
+    "books": [
+      3,
+      5
+    ],
     "description": "Hijo mayor de Beron y heredero de la Corte Otoño. Jugador político astuto y de lealtades ambiguas."
   },
   {
@@ -293,7 +422,9 @@
     "image": "characters/miryam.jpg",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
-    "books": [3],
+    "books": [
+      3
+    ],
     "description": "Guerrera de sangre mixta y antigua aliada de la Corte Noche. Esposa de Drakon y figura legendaria de la primera guerra."
   },
   {
@@ -302,7 +433,9 @@
     "image": "characters/drakon.jpg",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
-    "books": [3],
+    "books": [
+      3
+    ],
     "description": "Príncipe de los serafines y esposo de Miryam. Líder de una isla oculta y antiguo aliado contra Hybern."
   },
   {
@@ -311,7 +444,9 @@
     "image": "characters/nuan.jpg",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
-    "books": [3],
+    "books": [
+      3
+    ],
     "description": "Inventora de la Corte Amanecer. Creadora de dispositivos mágicos y aliada tecnológica durante la guerra."
   },
   {
@@ -320,7 +455,10 @@
     "image": "characters/clotho.jpg",
     "firstBookId": 4,
     "firstBookTitle": "Una corte de hielo y estrellas",
-    "books": [4,5],
+    "books": [
+      4,
+      5
+    ],
     "description": "Sacerdotisa muda que dirige la Biblioteca de la Casa del Viento. Superviviente de traumas y figura protectora de las demás sacerdotisas."
   },
   {
@@ -329,7 +467,9 @@
     "image": "characters/ressina.jpg",
     "firstBookId": 4,
     "firstBookTitle": "Una corte de hielo y estrellas",
-    "books": [4],
+    "books": [
+      4
+    ],
     "description": "Artista faérica de Velaris. Se hace amiga de Feyre y la invita a pintar y a formar parte de la comunidad artística de la ciudad."
   },
   {
@@ -338,7 +478,9 @@
     "image": "characters/gwyneth_berdara.jpg",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
-    "books": [5],
+    "books": [
+      5
+    ],
     "description": "Sacerdotisa de la Biblioteca de la Casa del Viento y superviviente del ataque de Hybern en el templo. Se convierte en una de las primeras Valquirias modernas."
   },
   {
@@ -347,7 +489,9 @@
     "image": "characters/emerie.jpg",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
-    "books": [5],
+    "books": [
+      5
+    ],
     "description": "Illyria propietaria de una tienda en Windhaven. Desafía las tradiciones de su pueblo y se une al entrenamiento de las Valquirias."
   },
   {
@@ -356,7 +500,9 @@
     "image": "characters/merrill.jpg",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
-    "books": [5],
+    "books": [
+      5
+    ],
     "description": "Sacerdotisa ciega y erudita de la Biblioteca. Experta en conocimientos antiguos y de personalidad exigente."
   },
   {
@@ -365,7 +511,9 @@
     "image": "characters/bellius.jpg",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
-    "books": [5],
+    "books": [
+      5
+    ],
     "description": "Illyrio tradicionalista y hostil. Representa la resistencia de los machos illyrios al cambio y al entrenamiento de mujeres."
   },
   {
@@ -374,7 +522,9 @@
     "image": "characters/briallyn.jpg",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
-    "books": [5],
+    "books": [
+      5
+    ],
     "description": "Una de las reinas humanas que se alió con Hybern. Convertida en algo más que mortal gracias al Caldero y aliada de Koschei."
   },
   {
@@ -383,7 +533,9 @@
     "image": "characters/koschei.jpg",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
-    "books": [5],
+    "books": [
+      5
+    ],
     "description": "Ser inmortal y antiguo atrapado en un lago. Manipulador peligroso que tira de los hilos desde las sombras."
   },
   {
@@ -392,881 +544,1208 @@
     "image": "characters/balthazar.jpg",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
-    "books": [5],
+    "books": [
+      5
+    ],
     "description": "Illyrio que apoya el cambio y ayuda a las nuevas Valquirias. Uno de los pocos guerreros abiertos a las nuevas ideas."
   },
   {
-    "id": 86,
+    "id": 45,
     "name": "Celaena Sardothien",
     "image": "characters/celaena_sardothien.jpg",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
-    "books": [6,7,8],
+    "books": [
+      6,
+      7,
+      8
+    ],
     "description": "Joven asesina adiestrada por Arobynn Hamel. Protagonista de las cinco novelas cortas que narran su pasado antes de Endovier."
   },
   {
-    "id": 87,
+    "id": 46,
     "name": "Sam Cortland",
     "image": "characters/sam_cortland.jpg",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
-    "books": [6],
+    "books": [
+      6
+    ],
     "description": "Asesino del Gremio y pareja de Celaena. Uno de los personajes más importantes de su pasado."
   },
   {
-    "id": 88,
+    "id": 47,
     "name": "Arobynn Hamel",
     "image": "characters/arobynn_hamel.jpg",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
-    "books": [6,7,8,9,10],
+    "books": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
     "description": "Rey de los Asesinos y mentor de Celaena. Manipulador, posesivo y extremadamente peligroso."
   },
   {
-    "id": 89,
+    "id": 48,
     "name": "Lysandra",
     "image": "characters/lysandra.jpg",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
-    "books": [6,7,8,9,10,11,13],
+    "books": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Cortesía de Rifthold que conoce a Celaena en su juventud. Más adelante se convertirá en una aliada fundamental."
   },
   {
-    "id": 90,
+    "id": 49,
     "name": "Ansel de Briarcliff",
     "image": "characters/ansel_of_briarcliff.jpg",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
-    "books": [6,13],
+    "books": [
+      6,
+      13
+    ],
     "description": "Joven guerrera del desierto que Celaena conoce durante su misión en la novela corta del desierto."
   },
   {
-    "id": 91,
+    "id": 50,
     "name": "Captain Rolfe",
     "image": "characters/captain_rolfe.jpg",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
-    "books": [6,13],
+    "books": [
+      6,
+      13
+    ],
     "description": "Señor de los Piratas de Skull’s Bay. Celaena tiene un enfrentamiento importante con él en la primera novela corta."
   },
   {
-    "id": 92,
+    "id": 51,
     "name": "Wesley",
     "image": "characters/wesley.jpg",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
-    "books": [6],
+    "books": [
+      6
+    ],
     "description": "Guardaespaldas y hombre de confianza de Arobynn Hamel."
   },
   {
-    "id": 93,
+    "id": 52,
     "name": "El Maestro Mudo",
     "image": "characters/mute_master.jpg",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
-    "books": [6],
+    "books": [
+      6
+    ],
     "description": "Uno de los maestros del Keep de los Asesinos. Entrena a Celaena en su juventud."
   },
   {
-    "id": 94,
+    "id": 53,
     "name": "Chaol Westfall",
     "image": "characters/chaol_westfall.jpg",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
-    "books": [7,8,9,10,11,12,13],
+    "books": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
     "description": "Capitán de la Guardia Real de Adarlan. Encargado de vigilar a Celaena durante el torneo por su libertad."
   },
   {
-    "id": 95,
+    "id": 54,
     "name": "Dorian Havilliard",
     "image": "characters/dorian_havilliard.jpg",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
-    "books": [7,8,9,10,11,13],
+    "books": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Príncipe heredero de Adarlan. Inteligente y encantador, muestra interés genuino por Celaena más allá del torneo."
   },
   {
-    "id": 96,
+    "id": 55,
     "name": "Kaltain Rompier",
     "image": "characters/kaltain_rompier.jpg",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
-    "books": [7,8,9],
+    "books": [
+      7,
+      8,
+      9
+    ],
     "description": "Dama de la corte con grandes ambiciones. Intenta usar su posición y a los hombres de poder para escalar."
   },
   {
-    "id": 97,
+    "id": 56,
     "name": "Cain",
     "image": "characters/cain.jpg",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
-    "books": [7],
+    "books": [
+      7
+    ],
     "description": "Uno de los campeones del torneo. Físicamente imponente y manipulado por fuerzas oscuras dentro del castillo."
   },
   {
-    "id": 98,
+    "id": 57,
     "name": "Nox Owen",
     "image": "characters/nox_owen.jpg",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
-    "books": [7],
+    "books": [
+      7
+    ],
     "description": "Ladrón y competidor del torneo. Uno de los pocos que se gana el respeto y la simpatía de Celaena."
   },
   {
-    "id": 99,
+    "id": 58,
     "name": "Philippa",
     "image": "characters/philippa.jpg",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
-    "books": [7,8,9],
+    "books": [
+      7,
+      8,
+      9
+    ],
     "description": "Doncella asignada a Celaena en el castillo de cristal. Discreta, leal y de las pocas personas amables con ella."
   },
   {
-    "id": 100,
+    "id": 59,
     "name": "Fleetfoot",
     "image": "characters/fleetfoot.jpg",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
-    "books": [7,8,9,10,11,13],
+    "books": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Perra de caza que Celaena adopta durante su estancia en el castillo de cristal."
   },
   {
-    "id": 101,
+    "id": 60,
     "name": "El Rey de Adarlan",
     "image": "characters/king_of_adarlan.jpg",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
-    "books": [7,8,9,10],
+    "books": [
+      7,
+      8,
+      9,
+      10
+    ],
     "description": "Soberano de Adarlan. Tirano responsable de la conquista de los reinos vecinos y del sistema de minas de sal."
   },
   {
-    "id": 102,
+    "id": 61,
     "name": "Nehemia Ytger",
     "image": "characters/nehemia_ytger.jpg",
     "firstBookId": 8,
     "firstBookTitle": "Corona de medianoche",
-    "books": [8],
+    "books": [
+      8
+    ],
     "description": "Princesa de Eyllwe y amiga cercana de Celaena. Inteligente, valiente y profundamente comprometida con la libertad de su pueblo."
   },
   {
-    "id": 103,
+    "id": 62,
     "name": "Archer Finn",
     "image": "characters/archer_finn.jpg",
     "firstBookId": 8,
     "firstBookTitle": "Corona de medianoche",
-    "books": [8],
+    "books": [
+      8
+    ],
     "description": "Cortesía de Rifthold y antiguo amante de Celaena. Involucrado en los juegos de poder de la ciudad."
   },
   {
-    "id": 104,
+    "id": 63,
     "name": "Elena Galathynius",
     "image": "characters/elena_galathynius.jpg",
     "firstBookId": 8,
     "firstBookTitle": "Corona de medianoche",
-    "books": [8,9,10],
+    "books": [
+      8,
+      9,
+      10
+    ],
     "description": "Antigua reina de Terrasen y antepasada de Celaena. Aparece como espíritu para guiarla y revelarle partes de su destino."
   },
   {
-    "id": 105,
+    "id": 64,
     "name": "Mort",
     "image": "characters/mort.jpg",
     "firstBookId": 8,
     "firstBookTitle": "Corona de medianoche",
-    "books": [8],
+    "books": [
+      8
+    ],
     "description": "Cráneo encantado que sirve de aldaba en las puertas de la tumba de Elena. Sárcastico y conocedor de secretos antiguos."
   },
   {
-    "id": 106,
+    "id": 65,
     "name": "Aelin Galathynius",
     "image": "characters/celaena_sardothien.jpg",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
-    "books": [6,7,8,9,10,11,13],
+    "books": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Joven asesina adiestrada por Arobynn Hamel. Protagonista de las cinco novelas cortas que narran su pasado antes de Endovier."
   },
   {
-    "id": 107,
+    "id": 66,
     "name": "Rowan Whitethorn",
     "image": "characters/rowan_whitethorn.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Príncipe fae de Maeve y guerrero letal. Se convierte en el mentor y compañero de Aelin en Wendlyn."
   },
   {
-    "id": 108,
+    "id": 67,
     "name": "Aedion Ashryver",
     "image": "characters/aedion_ashryver.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Primo de Aelin y general del ejército de Terrasen. Leal a su sangre y decidido a recuperar su reino."
   },
   {
-    "id": 109,
+    "id": 68,
     "name": "Maeve",
     "image": "characters/maeve.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Reina de las hadas de Doranelle. Antigua, manipuladora y una de las mayores amenazas de la saga."
   },
   {
-    "id": 110,
+    "id": 69,
     "name": "Gavriel",
     "image": "characters/gavriel.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Uno de los Cadre de Maeve. Guerrero fae y padre de Aedion."
   },
   {
-    "id": 111,
+    "id": 70,
     "name": "Fenrys",
     "image": "characters/fenrys.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Miembro del Cadre de Maeve. Fae con forma de lobo y hermano gemelo de Connall."
   },
   {
-    "id": 112,
+    "id": 71,
     "name": "Connall",
     "image": "characters/connall.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Gemelo de Fenrys y miembro del Cadre de Maeve. Leal a su reina por obligación."
   },
   {
-    "id": 113,
+    "id": 72,
     "name": "Vaughan",
     "image": "characters/vaughan.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9],
+    "books": [
+      9
+    ],
     "description": "Miembro silencioso del Cadre de Maeve. Fae y guerrero de pocas palabras."
   },
   {
-    "id": 114,
+    "id": 73,
     "name": "Lorcan Salvaterre",
     "image": "characters/lorcan_salvaterre.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Comandante del Cadre de Maeve. Medio-fae extremadamente poderoso y leal a su reina durante siglos."
   },
   {
-    "id": 115,
+    "id": 74,
     "name": "Manon Blackbeak",
     "image": "characters/manon_blackbeak.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Heredera del clan Blackbeak y líder del Trece. Bruja alada despiadada y una de las guerreras más letales."
   },
   {
-    "id": 116,
+    "id": 75,
     "name": "Asterin Blackbeak",
     "image": "characters/asterin_blackbeak.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Segunda de Manon y miembro del Trece. Leal, feroz y con un pasado doloroso."
   },
   {
-    "id": 117,
+    "id": 76,
     "name": "Elide Lochan",
     "image": "characters/elide_lochan.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9,10,11,13],
+    "books": [
+      9,
+      10,
+      11,
+      13
+    ],
     "description": "Lady de Perranth y única superviviente de su familia. Cojea de una pierna y posee una gran inteligencia y voluntad."
   },
   {
-    "id": 118,
+    "id": 77,
     "name": "Vernon Lochan",
     "image": "characters/vernon_lochan.jpg",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
-    "books": [9],
+    "books": [
+      9
+    ],
     "description": "Tío de Elide y señor de Perranth al servicio del Rey de Adarlan. Cruel y oportunista."
   },
   {
-    "id": 119,
+    "id": 78,
     "name": "Evangeline",
     "image": "characters/evangeline.jpg",
     "firstBookId": 10,
     "firstBookTitle": "Reina de sombras",
-    "books": [10,11,13],
+    "books": [
+      10,
+      11,
+      13
+    ],
     "description": "Niña huérfana bajo la protección de Lysandra. Dulce, valiente y muy unida a ella."
   },
   {
-    "id": 120,
+    "id": 79,
     "name": "Ren Allsbrook",
     "image": "characters/ren_allsbrook.jpg",
     "firstBookId": 10,
     "firstBookTitle": "Reina de sombras",
-    "books": [10,11,13],
+    "books": [
+      10,
+      11,
+      13
+    ],
     "description": "Joven señor de Allsbrook y miembro de la resistencia de Terrasen. Leal a Aedion y a la causa de restaurar el reino."
   },
   {
-    "id": 121,
+    "id": 80,
     "name": "Murtaugh Allsbrook",
     "image": "characters/murtaugh_allsbrook.jpg",
     "firstBookId": 10,
     "firstBookTitle": "Reina de sombras",
-    "books": [10,11],
+    "books": [
+      10,
+      11
+    ],
     "description": "Abuelo de Ren y veterano de la resistencia de Terrasen. Sabio y comprometido con la causa."
   },
   {
-    "id": 122,
+    "id": 81,
     "name": "Nesryn Faliq",
     "image": "characters/nesryn_faliq.jpg",
     "firstBookId": 10,
     "firstBookTitle": "Reina de sombras",
-    "books": [10,11,12,13],
+    "books": [
+      10,
+      11,
+      12,
+      13
+    ],
     "description": "Arquera y miembro de la Guardia Real de Adarlan. Leal, competente y cercana a Chaol."
   },
   {
-    "id": 123,
+    "id": 82,
     "name": "Ansel de Briarcliff",
     "image": "characters/ansel_of_briarcliff.jpg",
     "firstBookId": 11,
     "firstBookTitle": "Imperio de tormentas",
-    "books": [11],
+    "books": [
+      11
+    ],
     "description": "Reina de las Tierras del Desierto del Oeste. Antigua conocida de Celaena que reaparece como aliada."
   },
   {
-    "id": 124,
+    "id": 83,
     "name": "Rolfe",
     "image": "characters/rolfe.jpg",
     "firstBookId": 11,
     "firstBookTitle": "Imperio de tormentas",
-    "books": [11],
+    "books": [
+      11
+    ],
     "description": "Señor de los Piratas de Skull’s Bay. Vuelve a cruzarse con Aelin años después de su primer enfrentamiento."
   },
   {
-    "id": 125,
+    "id": 84,
     "name": "Gavin Havilliard",
     "image": "characters/gavin_havilliard.jpg",
     "firstBookId": 11,
     "firstBookTitle": "Imperio de tormentas",
-    "books": [11],
+    "books": [
+      11
+    ],
     "description": "Antiguo rey de Adarlan y antepasado de Dorian. Aparece como espíritu ligado a la historia de Elena."
   },
   {
-    "id": 126,
+    "id": 85,
     "name": "Ilias",
     "image": "characters/ilias.jpg",
     "firstBookId": 11,
     "firstBookTitle": "Imperio de tormentas",
-    "books": [11],
+    "books": [
+      11
+    ],
     "description": "Hijo del Maestro de los Asesinos del Desierto y antiguo conocido de Celaena. Líder de los asesinos del Desierto Rojo."
   },
   {
-    "id": 127,
+    "id": 86,
     "name": "Sapphique",
     "image": "characters/sapphique.jpg",
     "firstBookId": 11,
     "firstBookTitle": "Imperio de tormentas",
-    "books": [11],
+    "books": [
+      11
+    ],
     "description": "Una de las brujas del Clan Blueblood. Aparece en el contexto de las brujas y sus alianzas."
   },
   {
-    "id": 128,
+    "id": 87,
     "name": "The Yellowlegs Matron",
     "image": "characters/yellowlegs_matron.jpg",
     "firstBookId": 11,
     "firstBookTitle": "Imperio de tormentas",
-    "books": [11],
+    "books": [
+      11
+    ],
     "description": "Matriarca del clan Yellowlegs. Figura de poder dentro de las Brujas de Hierro."
   },
   {
-    "id": 129,
+    "id": 88,
     "name": "Yrene Towers",
     "image": "characters/yrene_towers.jpg",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
-    "books": [12,13],
+    "books": [
+      12,
+      13
+    ],
     "description": "Sanadora de la Torre Cesme. Originaria de las Tierras del Sur de Adarlan y una de las curanderas más talentosas de su generación."
   },
   {
-    "id": 130,
+    "id": 89,
     "name": "Sartaq",
     "image": "characters/sartaq.jpg",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
-    "books": [12,13],
+    "books": [
+      12,
+      13
+    ],
     "description": "Príncipe del Imperio Khagan y capitán de los jinetes de ruk. Heredero potencial y guerrero respetado."
   },
   {
-    "id": 131,
+    "id": 90,
     "name": "Hasar",
     "image": "characters/hasar.jpg",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
-    "books": [12,13],
+    "books": [
+      12,
+      13
+    ],
     "description": "Princesa del Imperio Khagan. Astuta, directa y una de las hijas más influyentes del Khagan."
   },
   {
-    "id": 132,
+    "id": 91,
     "name": "Kashin",
     "image": "characters/kashin.jpg",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
-    "books": [12],
+    "books": [
+      12
+    ],
     "description": "Príncipe del Imperio Khagan. Guerrero y uno de los hijos del Khagan."
   },
   {
-    "id": 133,
+    "id": 92,
     "name": "Duva",
     "image": "characters/duva.jpg",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
-    "books": [12],
+    "books": [
+      12
+    ],
     "description": "Princesa del Imperio Khagan. Su situación se vuelve central en la trama política y de la Torre."
   },
   {
-    "id": 134,
+    "id": 93,
     "name": "El Khagan",
     "image": "characters/the_khagan.jpg",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
-    "books": [12],
+    "books": [
+      12
+    ],
     "description": "Emperador del Imperio Khagan. Gobernante poderoso y padre de Sartaq, Hasar, Kashin y Duva."
   },
   {
-    "id": 135,
+    "id": 94,
     "name": "Hafiza",
     "image": "characters/hafiza.jpg",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
-    "books": [12],
+    "books": [
+      12
+    ],
     "description": "Gran Sanadora y líder de la Torre Cesme. Mentora de Yrene y una de las curanderas más poderosas del continente."
   },
   {
-    "id": 136,
+    "id": 95,
     "name": "Shen",
     "image": "characters/shen.jpg",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
-    "books": [12],
+    "books": [
+      12
+    ],
     "description": "Guerrero y escolta cercano a Sartaq. Leal y competente."
   },
   {
-    "id": 137,
+    "id": 96,
     "name": "Kadara",
     "image": "characters/kadara.jpg",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
-    "books": [12],
+    "books": [
+      12
+    ],
     "description": "Ruk (águila gigante) de Sartaq. Compañera de batalla y de viaje."
   },
   {
-    "id": 139,
+    "id": 97,
     "name": "Gavin Havilliard",
     "image": "characters/gavin_havilliard.jpg",
     "firstBookId": 13,
     "firstBookTitle": "Reino de cenizas",
-    "books": [13],
+    "books": [
+      13
+    ],
     "description": "Antiguo rey de Adarlan y antepasado de Dorian. Su historia con Elena tiene un cierre importante en este libro."
   },
   {
-    "id": 140,
+    "id": 98,
     "name": "Elena Galathynius",
     "image": "characters/elena_galathynius.jpg",
     "firstBookId": 13,
     "firstBookTitle": "Reino de cenizas",
-    "books": [13],
+    "books": [
+      13
+    ],
     "description": "Antigua reina de Terrasen y antepasada de Aelin. Su espíritu y su pasado tienen un peso final en la batalla contra Maeve y Erawan."
   },
   {
-    "id": 141,
+    "id": 99,
     "name": "Erawan",
     "image": "characters/erawan.jpg",
     "firstBookId": 13,
     "firstBookTitle": "Reino de cenizas",
-    "books": [13],
+    "books": [
+      13
+    ],
     "description": "Rey Valg y principal antagonista junto a Maeve. La amenaza definitiva que se cierne sobre Erilea."
   },
   {
-    "id": 142,
+    "id": 100,
     "name": "Vernon Lochan",
     "image": "characters/vernon_lochan.jpg",
     "firstBookId": 13,
     "firstBookTitle": "Reino de cenizas",
-    "books": [13],
+    "books": [
+      13
+    ],
     "description": "Tío de Elide. Su destino se resuelve durante los acontecimientos de la guerra final."
   },
   {
-    "id": 143,
+    "id": 101,
     "name": "The Thirteen",
     "image": "characters/the_thirteen.jpg",
     "firstBookId": 13,
     "firstBookTitle": "Reino de cenizas",
-    "books": [13],
+    "books": [
+      13
+    ],
     "description": "El grupo de élite de brujas leales a Manon Blackbeak. Su sacrificio y lealtad son fundamentales en la batalla final."
   },
-   {
-    "id": 45,
+  {
+    "id": 102,
     "name": "Bryce Quinlan",
     "image": "characters/bryce_quinlan.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Medio-fae que trabaja en la Galería de Antiquidades. Superviviente del ataque que mató a su manada y a su mejor amiga Danika."
   },
   {
-    "id": 46,
+    "id": 103,
     "name": "Hunt Athalar",
     "image": "characters/hunt_athalar.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Ángel caído conocido como el Umbra Mortis. Esclavo de Micah Domitus y uno de los guerreros más letales de Midgard."
   },
   {
-    "id": 47,
+    "id": 104,
     "name": "Danika Fendyr",
     "image": "characters/danika_fendyr.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14],
+    "books": [
+      14
+    ],
     "description": "Alfa de la Manada de los Demonios y mejor amiga de Bryce. Heredera del linaje Fendyr y miembro de los Auxiliares."
   },
   {
-    "id": 48,
+    "id": 105,
     "name": "Ruhn Danaan",
     "image": "characters/ruhn_danaan.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Príncipe de los Fae de Valbara y medio hermano de Bryce. Portador de la Estrella y miembro de la Orden de los Starborn."
   },
   {
-    "id": 49,
+    "id": 106,
     "name": "Jesiba Roga",
     "image": "characters/jesiba_roga.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Bruja y propietaria de la Galería de Antiquidades. Jefa de Bryce y poseedora de un pasado oscuro y poderoso."
   },
   {
-    "id": 50,
+    "id": 107,
     "name": "Lehabah",
     "image": "characters/lehabah.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Espíritu de fuego esclava que vive en el sótano de la Galería. Leal a Bryce y adicta a las telenovelas."
   },
   {
-    "id": 51,
+    "id": 108,
     "name": "Syrinx",
     "image": "characters/syrinx.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Chimera de compañía de Bryce. Glotón, leal y muy protector."
   },
   {
-    "id": 52,
+    "id": 109,
     "name": "Fury Axtar",
     "image": "characters/fury_axtar.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Asesina profesional y una de las mejores amigas de Bryce. Extremadamente letal y de pasado misterioso."
   },
   {
-    "id": 53,
+    "id": 110,
     "name": "Juniper Andromeda",
     "image": "characters/juniper_andromeda.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Bailarina de ballet y mejor amiga de Bryce. Vampira de la Casa de la Noche."
   },
   {
-    "id": 54,
+    "id": 111,
     "name": "Isaiah Tiberian",
     "image": "characters/isaiah_tiberian.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15],
+    "books": [
+      14,
+      15
+    ],
     "description": "Ángel y segundo al mando de Micah Domitus. Amigo cercano de Hunt y figura de autoridad en el 33º."
   },
   {
-    "id": 55,
+    "id": 112,
     "name": "Naomi",
     "image": "characters/naomi.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15],
+    "books": [
+      14,
+      15
+    ],
     "description": "Ángel y compañera de escuadrón de Hunt e Isaiah. Leal y combativa."
   },
   {
-    "id": 56,
+    "id": 113,
     "name": "Tharion Ketos",
     "image": "characters/tharion_ketos.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Capitán de Inteligencia de la Casa de Tierra y Sangre. Mer y agente del Río."
   },
   {
-    "id": 57,
+    "id": 114,
     "name": "Micah Domitus",
     "image": "characters/micah_domitus.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14],
+    "books": [
+      14
+    ],
     "description": "Arcángel Gobernador de Valbara. Dueño de Hunt Athalar y una de las figuras de poder más peligrosas de Ciudad Medialuna."
   },
   {
-    "id": 58,
+    "id": 115,
     "name": "Aidas",
     "image": "characters/aidas.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Príncipe del Abismo. Demonio que se interesa profundamente por Bryce y su poder."
   },
   {
-    "id": 59,
+    "id": 116,
     "name": "Apollion",
     "image": "characters/apollion.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Primer Príncipe del Abismo, conocido como el Estrella de la Mañana. Hermano de Aidas."
   },
   {
-    "id": 60,
+    "id": 117,
     "name": "Connor Holstrom",
     "image": "characters/connor_holstrom.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14],
+    "books": [
+      14
+    ],
     "description": "Lobo de la Manada de los Demonios y novio de Danika. Miembro de los Auxiliares."
   },
   {
-    "id": 61,
+    "id": 118,
     "name": "Ithan Holstrom",
     "image": "characters/ithan_holstrom.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Hermano menor de Connor. Lobo que queda devastado tras la masacre de la manada."
   },
   {
-    "id": 62,
+    "id": 119,
     "name": "Sabine Fendyr",
     "image": "characters/sabine_fendyr.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Madre de Danika y Alfa de los Fendyr. Ambiciosa y despiadada."
   },
   {
-    "id": 63,
+    "id": 120,
     "name": "El Rey de Otoño",
     "image": "characters/autumn_king.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Rey de los Fae de Otoño y padre biológico de Bryce y Ruhn. Cruel y calculador."
   },
   {
-    "id": 64,
+    "id": 121,
     "name": "Philip Briggs",
     "image": "characters/philip_briggs.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14],
+    "books": [
+      14
+    ],
     "description": "Líder rebelde humano y antiguo enemigo de Danika. Involucrado en los ataques terroristas."
   },
   {
-    "id": 65,
+    "id": 122,
     "name": "Declan Emrys",
     "image": "characters/declan_emrys.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Genio de la informática y amigo cercano de Ruhn. Experto en tecnología y hackeo."
   },
   {
-    "id": 66,
+    "id": 123,
     "name": "Tristan Flynn",
     "image": "characters/tristan_flynn.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Fae y amigo de Ruhn. Miembro del círculo cercano del príncipe."
   },
   {
-    "id": 67,
+    "id": 124,
     "name": "Ember Quinlan",
     "image": "characters/ember_quinlan.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Madre humana de Bryce. Protege a su hija con todo lo que tiene."
   },
   {
-    "id": 68,
+    "id": 125,
     "name": "Randall Silago",
     "image": "characters/randall_silago.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Padrastro de Bryce y pareja de Ember. Exmilitar y figura protectora."
   },
   {
-    "id": 69,
+    "id": 126,
     "name": "Sandriel",
     "image": "characters/sandriel.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14],
+    "books": [
+      14
+    ],
     "description": "Arcángel y antigua dueña de Hunt. Cruel, sádica y una amenaza constante."
   },
   {
-    "id": 70,
+    "id": 127,
     "name": "La Reina Víbora",
     "image": "characters/viper_queen.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15,16],
+    "books": [
+      14,
+      15,
+      16
+    ],
     "description": "Poderosa y peligrosa dueña de un club ilegal en el Distrito. Controla información y deudas."
   },
   {
-    "id": 71,
+    "id": 128,
     "name": "Sofie Renast",
     "image": "characters/sofie_renast.jpg",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
-    "books": [14,15],
+    "books": [
+      14,
+      15
+    ],
     "description": "Thunderbird y agente rebelde. Su destino está ligado a los misterios que investigan Bryce y Hunt."
-  }
-  ,
+  },
   {
-    "id": 72,
+    "id": 129,
     "name": "Lidia Cervos",
     "image": "characters/sofie_renast.jpg",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15,16],
+    "books": [
+      15,
+      16
+    ],
     "description": "La Cierva (The Hind). Agente de élite de los Auxiliares y una de las cazadoras más letales de Midgard. Doble agente con una identidad secreta crucial."
   },
   {
-    "id": 73,
+    "id": 130,
     "name": "Cormac Donnall",
     "image": "characters/cormac_donnall.jpg",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15],
+    "books": [
+      15
+    ],
     "description": "Príncipe de los Fae de Avallen y primo de Bryce y Ruhn. Miembro de Ophion y portador de un poder Starborn."
   },
   {
-    "id": 74,
+    "id": 131,
     "name": "Hypaxia Enador",
     "image": "characters/hypaxia_enador.jpg",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15,16],
+    "books": [
+      15,
+      16
+    ],
     "description": "Joven bruja y reina de las brujas de Valbara. Heredera de un linaje poderoso y curandera de gran talento."
   },
   {
-    "id": 75,
+    "id": 132,
     "name": "Baxian Athalar",
     "image": "characters/baxian_athalar.jpg",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15,16],
+    "books": [
+      15,
+      16
+    ],
     "description": "Ángel conocido como el Helhound. Antiguo enemigo de Hunt que se ve obligado a aliarse con él."
   },
   {
-    "id": 76,
+    "id": 133,
     "name": "Celestina",
     "image": "characters/celestina.jpg",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15,16],
+    "books": [
+      15,
+      16
+    ],
     "description": "Arcángel y nueva Gobernadora de Valbara tras la muerte de Micah. Más moderada que su predecesor."
   },
   {
-    "id": 77,
+    "id": 134,
     "name": "Pollux Antonius",
     "image": "characters/pollux_antonius.jpg",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15],
+    "books": [
+      15
+    ],
     "description": "Ángel sádico y segundo al mando de Sandriel. Conocido por su crueldad y lealtad a los Arcángeles más extremos."
   },
   {
-    "id": 78,
+    "id": 135,
     "name": "Mordoc",
     "image": "characters/mordoc.jpg",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15,16],
+    "books": [
+      15,
+      16
+    ],
     "description": "Demi-fae al servicio de Lidia Cervos. Leal, brutal y con un fuerte sentido del deber hacia su comandante."
   },
   {
-    "id": 79,
+    "id": 136,
     "name": "El Astronomer",
     "image": "characters/the_astronomer.jpg",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15],
+    "books": [
+      15
+    ],
     "description": "Místico que posee un oráculo vivo. Guarda secretos antiguos relacionados con los mundos y los príncipes del Abismo."
   },
   {
-    "id": 80,
+    "id": 137,
     "name": "Pippa Spetsos",
     "image": "characters/pippa_spetsos.jpg",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15],
+    "books": [
+      15
+    ],
     "description": "Líder rebelde de Ophion. Fanática y dispuesta a todo por la causa, incluso sacrificar inocentes."
   },
   {
-    "id": 82,
+    "id": 138,
     "name": "Sathia Flynn",
     "image": "characters/sathia_flynn.jpg",
     "firstBookId": 16,
     "firstBookTitle": "Casa de llama y sombra",
-    "books": [16],
+    "books": [
+      16
+    ],
     "description": "Hermana menor de Tristan Flynn. Fae de carácter fuerte que se ve envuelta en los acontecimientos de Avallen y la rebelión."
   },
   {
-    "id": 83,
+    "id": 139,
     "name": "Thanatos",
     "image": "characters/thanatos.jpg",
     "firstBookId": 16,
     "firstBookTitle": "Casa de llama y sombra",
-    "books": [16],
+    "books": [
+      16
+    ],
     "description": "Príncipe del Abismo, hermano de Aidas y Apollion. Uno de los príncipes más antiguos y poderosos de Hel."
   },
   {
-    "id": 84,
+    "id": 140,
     "name": "Rigelus",
     "image": "characters/rigelus.jpg",
     "firstBookId": 16,
     "firstBookTitle": "Casa de llama y sombra",
-    "books": [16],
+    "books": [
+      16
+    ],
     "description": "Líder de los Asteri y uno de los seres más antiguos y poderosos de Midgard. Principal antagonista de la trilogía."
   },
   {
-    "id": 85,
+    "id": 141,
     "name": "Sigrid",
     "image": "characters/sigrid.jpg",
     "firstBookId": 16,
     "firstBookTitle": "Casa de llama y sombra",
-    "books": [16],
+    "books": [
+      16
+    ],
     "description": "Loba relacionada con el pasado de Ithan Holstrom. Su resurrección y destino tienen un papel importante en la trama de la Casa de Tierra y Sangre."
   }
 ]
