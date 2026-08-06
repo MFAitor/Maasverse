@@ -721,15 +721,6 @@
     "description": "Líder rebelde de Ophion. Fanática y dispuesta a todo por la causa, incluso sacrificar inocentes."
   },
   {
-    "id": 81,
-    "name": "Daybright",
-    "image": "characters/daybright.jpg",
-    "firstBookId": 15,
-    "firstBookTitle": "Casa de cielo y aliento",
-    "books": [15],
-    "description": "Alias de la agente doble que se comunica con Ophion. Identidad secreta de gran importancia para la resistencia."
-  },
-  {
     "id": 82,
     "name": "Sathia Flynn",
     "image": "characters/sathia_flynn.jpg",
