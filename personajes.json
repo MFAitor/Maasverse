@@ -795,8 +795,7 @@
     "books": [
       8,
       9,
-      10,
-      13
+      10
     ],
     "description": "Antigua reina de Terrasen y antepasada de Celaena. Aparece como espíritu para guiarla y revelarle partes de su destino."
   },
@@ -986,8 +985,7 @@
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
-      9,
-      13
+      9
     ],
     "description": "Tío de Elide y señor de Perranth al servicio del Rey de Adarlan. Cruel y oportunista."
   },
