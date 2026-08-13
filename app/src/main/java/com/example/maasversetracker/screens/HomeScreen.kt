@@ -50,6 +50,9 @@ fun HomeScreen(viewModel: MainViewModel) {
     val ratings by viewModel.ratings.collectAsState()
     val readBookIds = ratings.keys
 
+    //Variable para ir sumando notas
+    val notes by viewModel.notes.collectAsState()
+
     val seriesOrder = listOf("ACOTAR", "Trono de Cristal", "Ciudad Medialuna")
 
     Column(
@@ -89,7 +92,7 @@ fun HomeScreen(viewModel: MainViewModel) {
                 modifier = Modifier.weight(1f)
             )
             StatCard(
-                value = "0",
+                value = notes.size.toString(),
                 label = "Notas",
                 modifier = Modifier.weight(1f)
             )

@@ -127,4 +127,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         }
         saveNotes()
     }
+
+    //Funcion de reseteo de la app
+    fun resetAllData() {
+        prefs.edit().clear().apply()
+        _ratings.value = emptyMap()
+        _notes.value = emptyList()
+    }
 }
