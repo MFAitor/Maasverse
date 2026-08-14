@@ -13,7 +13,7 @@
       5,
       16
     ],
-    "description": "Cazadora humana que mata a un faérico disfrazado de lobo y es arrastrada a la Corte Primavera como pago. Protagonista de la saga."
+    "description": "La mediana de las tres hermanas Archeron, caza para sustentar a su familia. En una de sus salidas mata a un férico transformado en lobo y es arrastrada a la Corte Primavera como pago. Protagonista de la saga."
   },
   {
     "id": 2,
@@ -26,7 +26,7 @@
       2,
       3
     ],
-    "description": "Alto Señor de la Corte Primavera. Bajo una maldición, mantiene su corte en un estado de decadencia y secretismo."
+    "description": "Alto Lord de la Corte Primavera. Él y su corte son afectados por una maldición que les mantiene con máscaras sobre sus rostros."
   },
   {
     "id": 3,
@@ -41,7 +41,7 @@
       4,
       5
     ],
-    "description": "Emisario de la Corte Primavera y mano derecha de Tamlin. Hijo del Alto Señor de la Corte Otoño."
+    "description": "Emisario de la Corte Primavera y mano derecha de Tamlin. Hijo del Alto Lord de la Corte Otoño."
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       5,
       16
     ],
-    "description": "Alto Señor de la Corte Noche. Aparece como un antagonista ambiguo y poderoso bajo el yugo de Amarantha."
+    "description": "Alto Lord de la Corte Noche. Aparece como un antagonista ambiguo y poderoso que trabaja de la mano con Amarantha."
   },
   {
     "id": 5,
@@ -68,7 +68,7 @@
     "books": [
       1
     ],
-    "description": "General de Hybern que se autoproclama reina de Prythian. Impone una cruel maldición sobre los Altos Señores y sus cortes."
+    "description": "General de Hybern que se autoproclama reina de Prythian. Impone una cruel maldición sobre los Altos Lordes y sus cortes."
   },
   {
     "id": 6,
@@ -84,7 +84,7 @@
       5,
       16
     ],
-    "description": "Hermana mayor de Feyre. Orgullosa, fría y protectora a su manera."
+    "description": "La mayor de las hermanas Archeron. Orgullosa, fría y protectora a su manera."
   },
   {
     "id": 7,
@@ -99,7 +99,7 @@
       4,
       5
     ],
-    "description": "Hermana mediana de Feyre. Dulce, soñadora y aficionada a la jardinería."
+    "description": "La pequeña de las hermanas Archeron. Dulce, soñadora y aficionada a la jardinería."
   },
   {
     "id": 8,
@@ -112,7 +112,7 @@
       2,
       3
     ],
-    "description": "Sirvienta faérica de la Corte Primavera que cuida de Feyre y le ofrece información valiosa."
+    "description": "Sirvienta férica de la Corte Primavera que cuida de Feyre y le ofrece información valiosa."
   },
   {
     "id": 9,
@@ -137,7 +137,7 @@
       1,
       2
     ],
-    "description": "Criatura alada y sádica al servicio de Amarantha. Actúa como mensajero y torturador."
+    "description": "Criatura alada con aspecto de murciélago gigante, garras afiladas y colmillos de plata. Un ser malvado al servicio de Amarantha. Actúa como mensajero y torturador."
   },
   {
     "id": 11,
@@ -148,7 +148,7 @@
     "books": [
       1
     ],
-    "description": "Faérico de la Corte Primavera que se hace pasar por lobo. Su muerte a manos de Feyre desencadena toda la historia."
+    "description": "Férico de la Corte Primavera que se hace pasar por lobo. Su muerte a manos de Feyre desencadena toda la historia."
   },
   {
     "id": 12,
@@ -178,7 +178,7 @@
       5,
       16
     ],
-    "description": "Spymaster de la Corte Noche y portador de las sombras. Miembro del Círculo Íntimo y hermano de armas de Cassian y Rhysand."
+    "description": "Maestro de espías de la Corte Noche y portador de las sombras. Miembro del Círculo Íntimo y hermano de armas de Cassian y Rhysand."
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
       5,
       16
     ],
-    "description": "Segunda al mando de Rhysand. Ser antiguo y poderoso atrapado en un cuerpo faérico. Miembro del Círculo Íntimo."
+    "description": "Segunda al mando de Rhysand. Ser antiguo y poderoso atrapado en un cuerpo férico. Miembro del Círculo Íntimo."
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
       4,
       5
     ],
-    "description": "Prima de Rhysand y miembro del Círculo Íntimo. Conoce la verdad y posee un poder único relacionado con ella."
+    "description": "Prima de Rhysand y tercera al mando. Capataz de la Corte de las pesadillas y la Corte de los Sueños. Luchadora, leal y alegre. Con una historia de fondo muy oscura."
   },
   {
     "id": 16,
@@ -220,7 +220,7 @@
       3,
       4
     ],
-    "description": "Media-wraith al servicio de Rhysand. Sirvienta y espía discreta de la Casa del Viento."
+    "description": "Media-furia, media-fae. Gemela de Cerridwen. Sirvienta y espía discreta de Rhysand."
   },
   {
     "id": 17,
@@ -233,7 +233,7 @@
       3,
       4
     ],
-    "description": "Media-wraith gemela de Nuala. Sirvienta y espía de confianza de la Corte Noche."
+    "description": "Media-furia, media-fae. Gemela de Nuala, junto con su hermana es sirvienta y espía de confianza de la Corte Noche."
   },
   {
     "id": 18,
@@ -270,7 +270,7 @@
       3,
       4
     ],
-    "description": "Alto Señor de la Corte Verano. Joven, idealista y dispuesto a cambiar las antiguas tradiciones."
+    "description": "Alto Lord de la Corte Verano. Joven, idealista y dispuesto a cambiar las antiguas tradiciones."
   },
   {
     "id": 21,
@@ -306,7 +306,7 @@
       2,
       3
     ],
-    "description": "Sacerdotisa de la Corte Primavera. Ambiciosa, manipuladora y cercana a Tamlin."
+    "description": "Sacerdotisa de la Corte Primavera. Ambiciosa y cercana a Tamlin."
   },
   {
     "id": 24,
@@ -330,7 +330,7 @@
       2,
       3
     ],
-    "description": "Soberano de Hybern. Antiguo, poderoso y decidido a recuperar el control sobre los humanos y los faéricos."
+    "description": "Soberano de Hybern. Antiguo, poderoso y decidido a recuperar el control sobre los humanos y los féricos."
   },
   {
     "id": 26,
@@ -342,7 +342,7 @@
       2,
       3
     ],
-    "description": "Señor de la Corte de la Noche Oscura (Hewn City) y padre de Morrigan. Ambicioso y despreciable."
+    "description": "Padre de Morrigan. Antiguo Lord de la Corte Noche y actual administrador de la Ciudad Tallada. Ambicioso y despreciable."
   },
   {
     "id": 27,
@@ -354,7 +354,7 @@
       3,
       4
     ],
-    "description": "Alto Señor de la Corte Amanecer. Anfitrión del consejo de guerra de los Altos Señores y poseedor de habilidades de sanación."
+    "description": "Alto Lord de la Corte Amanecer. Anfitrión del consejo de guerra de los Altos Lordes y poseedor de habilidades de sanación."
   },
   {
     "id": 28,
@@ -367,7 +367,7 @@
       4,
       5
     ],
-    "description": "Alto Señor de la Corte Día. Poderoso, carismático y poseedor de un conocimiento antiguo sobre hechizos y magia."
+    "description": "Alto Lord de la Corte Día. Poderoso, carismático y poseedor de un conocimiento antiguo sobre hechizos y magia."
   },
   {
     "id": 29,
@@ -379,7 +379,7 @@
       3,
       4
     ],
-    "description": "Alto Señor de la Corte Invierno. Reservado y protector de su pueblo tras los traumas del reinado de Amarantha."
+    "description": "Alto Lord de la Corte Invierno. Reservado y protector de su pueblo tras los traumas del reinado de Amarantha."
   },
   {
     "id": 30,
@@ -402,7 +402,7 @@
     "books": [
       3
     ],
-    "description": "Alto Señor de la Corte Otoño y padre de Lucien y Eris. Cruel, ambicioso y difícil de aliar."
+    "description": "Alto Lord de la Corte Otoño y padre de Lucien y Eris. Cruel, ambicioso y difícil de aliar."
   },
   {
     "id": 32,
@@ -470,7 +470,7 @@
     "books": [
       4
     ],
-    "description": "Artista faérica de Velaris. Se hace amiga de Feyre y la invita a pintar y a formar parte de la comunidad artística de la ciudad."
+    "description": "Artista férica de Velaris. Se hace amiga de Feyre y la invita a pintar y a formar parte de la comunidad artística de la ciudad."
   },
   {
     "id": 38,
@@ -481,7 +481,7 @@
     "books": [
       5
     ],
-    "description": "Sacerdotisa de la Biblioteca de la Casa del Viento y superviviente del ataque de Hybern en el templo. Se convierte en una de las primeras Valquirias modernas."
+    "description": "Sacerdotisa de la Biblioteca de la Casa del Viento y superviviente del ataque de Hybern en el templo."
   },
   {
     "id": 39,
@@ -492,7 +492,7 @@
     "books": [
       5
     ],
-    "description": "Illyria propietaria de una tienda en Windhaven. Desafía las tradiciones de su pueblo y se une al entrenamiento de las Valquirias."
+    "description": "Illyria propietaria de una tienda en Windhaven. Desafía las tradiciones de su pueblo, por ese motivo le atrofian sus alas."
   },
   {
     "id": 40,
@@ -560,7 +560,7 @@
       7,
       8
     ],
-    "description": "Joven asesina adiestrada por Arobynn Hamel. Protagonista de las cinco novelas cortas que narran su pasado antes de Endovier."
+    "description": "Joven asesina adiestrada por Arobynn Hamel. Comienza su historia cuando la condenan a las minas de sal de Endovier."
   },
   {
     "id": 46,
@@ -629,7 +629,7 @@
       11,
       13
     ],
-    "description": "Señor de los Piratas de Skull’s Bay. Celaena tiene un enfrentamiento importante con él en la primera novela corta."
+    "description": "Lord de los Piratas de Skull’s Bay. Celaena tiene un enfrentamiento importante con él en la primera novela corta."
   },
   {
     "id": 51,
@@ -651,7 +651,7 @@
     "books": [
       6
     ],
-    "description": "Uno de los maestros del Keep de los Asesinos. Entrena a Celaena en su juventud."
+    "description": "Uno de los maestros del Keep de los Asesinos. Caelena debe ganarse su aprobación en el plazo de un mes para poder regresar."
   },
   {
     "id": 53,
@@ -708,7 +708,7 @@
     "books": [
       7
     ],
-    "description": "Uno de los campeones del torneo. Físicamente imponente y manipulado por fuerzas oscuras dentro del castillo."
+    "description": "Uno de los campeones del torneo. Físicamente imponente y el candidato favorito para ganar."
   },
   {
     "id": 57,
@@ -736,7 +736,7 @@
   },
   {
     "id": 59,
-    "name": "Fleetfoot",
+    "name": "Pies Ligeros",
     "image": "characters/fleetfoot.jpg",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
@@ -762,7 +762,7 @@
       9,
       10
     ],
-    "description": "Soberano de Adarlan. Tirano responsable de la conquista de los reinos vecinos y del sistema de minas de sal."
+    "description": "Soberano de Adarlan. No recuerda su nombre. Tirano responsable de la conquista de los reinos vecinos y del sistema de minas de sal."
   },
   {
     "id": 61,
@@ -784,7 +784,7 @@
     "books": [
       8
     ],
-    "description": "Cortesía de Rifthold y antiguo amante de Celaena. Involucrado en los juegos de poder de la ciudad."
+    "description": "Cortesía de Rifthold y antiguo amigo de Celaena. Involucrado en los juegos de poder de la ciudad."
   },
   {
     "id": 63,
@@ -797,7 +797,7 @@
       9,
       10
     ],
-    "description": "Antigua reina de Terrasen y antepasada de Celaena. Aparece como espíritu para guiarla y revelarle partes de su destino."
+    "description": "Antigua reina de Terrasen. Aparece como espíritu para guiar a Caelena y revelarle partes de su destino."
   },
   {
     "id": 64,
@@ -825,7 +825,7 @@
       11,
       13
     ],
-    "description": "Joven asesina adiestrada por Arobynn Hamel. Protagonista de las cinco novelas cortas que narran su pasado antes de Endovier."
+    "description": "Princesa de Terrasen desaparecida y último miembro de la familia Galanthynius."
   },
   {
     "id": 66,
@@ -839,7 +839,7 @@
       11,
       13
     ],
-    "description": "Príncipe fae de Maeve y guerrero letal. Se convierte en el mentor y compañero de Aelin en Wendlyn."
+    "description": "Príncipe fae. Uno de los 6 guerreros que comparten un juramento de sangre con Maeve. Se convierte en el mentor y compañero de Aelin en Wendlyn."
   },
   {
     "id": 67,
@@ -881,7 +881,7 @@
       11,
       13
     ],
-    "description": "Uno de los Cadre de Maeve. Guerrero fae y padre de Aedion."
+    "description": "Uno de los 6 guerreros de élite de Maeve. Guerrero fae serio, leal y protector."
   },
   {
     "id": 70,
@@ -895,7 +895,7 @@
       11,
       13
     ],
-    "description": "Miembro del Cadre de Maeve. Fae con forma de lobo y hermano gemelo de Connall."
+    "description": "Miembro de los guerreros de Maeve. Fae con capacidad para adoptar forma de lobo y hermano gemelo de Connall."
   },
   {
     "id": 71,
@@ -909,7 +909,7 @@
       11,
       13
     ],
-    "description": "Gemelo de Fenrys y miembro del Cadre de Maeve. Leal a su reina por obligación."
+    "description": "Gemelo de Fenrys y miembro de los guerreros de Maeve. Leal a su reina por obligación."
   },
   {
     "id": 72,
@@ -920,7 +920,7 @@
     "books": [
       9
     ],
-    "description": "Miembro silencioso del Cadre de Maeve. Fae y guerrero de pocas palabras."
+    "description": "Miembro silencioso de los guererros de Maeve. Fae y guerrero de pocas palabras."
   },
   {
     "id": 73,
@@ -934,7 +934,7 @@
       11,
       13
     ],
-    "description": "Comandante del Cadre de Maeve. Medio-fae extremadamente poderoso y leal a su reina durante siglos."
+    "description": "Comandante de los guerreros de Maeve. Medio-fae extremadamente poderoso y leal a su reina durante siglos."
   },
   {
     "id": 74,
@@ -948,7 +948,7 @@
       11,
       13
     ],
-    "description": "Heredera del clan Blackbeak y líder del Trece. Bruja alada despiadada y una de las guerreras más letales."
+    "description": "Heredera del clan Picos Negros y líder de las Trece. Dedicada a cazar brujas Crochan. Bruja despiadada y una de las guerreras más letales."
   },
   {
     "id": 75,
@@ -962,7 +962,7 @@
       11,
       13
     ],
-    "description": "Segunda de Manon y miembro del Trece. Leal, feroz y con un pasado doloroso."
+    "description": "Segunda de Manon y miembro de las Trece. Leal, feroz y con un pasado doloroso."
   },
   {
     "id": 76,
@@ -987,7 +987,7 @@
     "books": [
       9
     ],
-    "description": "Tío de Elide y señor de Perranth al servicio del Rey de Adarlan. Cruel y oportunista."
+    "description": "Tío de Elide y Lord de Perranth al servicio del Rey de Adarlan. Cruel y oportunista."
   },
   {
     "id": 78,
@@ -1013,7 +1013,7 @@
       11,
       13
     ],
-    "description": "Joven señor de Allsbrook y miembro de la resistencia de Terrasen. Leal a Aedion y a la causa de restaurar el reino."
+    "description": "Joven Lord de Allsbrook y miembro de la resistencia de Terrasen. Leal a Aedion y a la causa de restaurar el reino."
   },
   {
     "id": 80,
@@ -1073,7 +1073,7 @@
     "books": [
       11
     ],
-    "description": "Matriarca del clan Yellowlegs. Figura de poder dentro de las Brujas de Hierro."
+    "description": "Matriarca del clan Piernas Amarillas. Figura de poder dentro de las Brujas."
   },
   {
     "id": 85,
@@ -1164,7 +1164,7 @@
     "books": [
       12
     ],
-    "description": "Ruk (águila gigante) de Sartaq. Compañera de batalla y de viaje."
+    "description": "Ruk (criatura alada gigante) de Sartaq. Compañera de batalla y de viaje."
   },
   {
     "id": 93,
@@ -1199,7 +1199,7 @@
       15,
       16
     ],
-    "description": "Medio-fae que trabaja en la Galería de Antiquidades. Superviviente del ataque que mató a su manada y a su mejor amiga Danika."
+    "description": "Medio-fae que trabaja en la Galería de Antigüedades. Protagonista de la trilogía."
   },
   {
     "id": 96,
