@@ -35,11 +35,16 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     private val _isLoading = MutableStateFlow(true)
     val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
 
+    //Añado variables para mantener los personajes revelados
+    private val _revealedCharacters = MutableStateFlow<Set<Int>>(emptySet())
+    val revealedCharacters: StateFlow<Set<Int>> = _revealedCharacters.asStateFlow()
+
     //Aquellas funciones que lanzamos con el inicio de la app
     init {
         loadData()
         loadRatings()
         loadNotes()
+        loadRevealedCharacters()
     }
 
     private fun loadData() {
@@ -133,5 +138,23 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         prefs.edit().clear().apply()
         _ratings.value = emptyMap()
         _notes.value = emptyList()
+    }
+
+    private fun loadRevealedCharacters() {
+        val saved = prefs.getStringSet("revealed_characters", emptySet()) ?: emptySet()
+        _revealedCharacters.value = saved.mapNotNull { it.toIntOrNull() }.toSet()
+    }
+
+    //Funciones de carga de personajes
+    fun revealCharacter(characterId: Int) {
+        val updated = _revealedCharacters.value + characterId
+        _revealedCharacters.value = updated
+        prefs.edit()
+            .putStringSet("revealed_characters", updated.map { it.toString() }.toSet())
+            .apply()
+    }
+
+    fun isCharacterRevealed(characterId: Int): Boolean {
+        return characterId in _revealedCharacters.value
     }
 }

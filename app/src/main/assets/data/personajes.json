@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Feyre Archeron",
-    "image": "characters/feyre_archeron.jpg",
+    "image": "characters/feyre_archeron.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "Tamlin",
-    "image": "characters/tamlin.jpg",
+    "image": "characters/tamlin.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -31,7 +31,7 @@
   {
     "id": 3,
     "name": "Lucien Vanserra",
-    "image": "characters/lucien_vanserra.jpg",
+    "image": "characters/lucien_vanserra.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -46,7 +46,7 @@
   {
     "id": 4,
     "name": "Rhysand",
-    "image": "characters/rhysand.jpg",
+    "image": "characters/rhysand.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -62,7 +62,7 @@
   {
     "id": 5,
     "name": "Amarantha",
-    "image": "characters/amarantha.jpg",
+    "image": "characters/amarantha.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -73,7 +73,7 @@
   {
     "id": 6,
     "name": "Nesta Archeron",
-    "image": "characters/nesta_archeron.jpg",
+    "image": "characters/nesta_archeron.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -89,7 +89,7 @@
   {
     "id": 7,
     "name": "Elain Archeron",
-    "image": "characters/elain_archeron.jpg",
+    "image": "characters/elain_archeron.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -104,7 +104,7 @@
   {
     "id": 8,
     "name": "Alis",
-    "image": "characters/alis.jpg",
+    "image": "characters/alis.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -117,7 +117,7 @@
   {
     "id": 9,
     "name": "El Suriel",
-    "image": "characters/the_suriel.jpg",
+    "image": "characters/the_suriel.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -130,7 +130,7 @@
   {
     "id": 10,
     "name": "El Attor",
-    "image": "characters/the_attor.jpg",
+    "image": "characters/the_attor.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -142,7 +142,7 @@
   {
     "id": 11,
     "name": "Andras",
-    "image": "characters/andras.jpg",
+    "image": "characters/andras.webp",
     "firstBookId": 1,
     "firstBookTitle": "Una corte de rosas y espinas",
     "books": [
@@ -153,7 +153,7 @@
   {
     "id": 12,
     "name": "Cassian",
-    "image": "characters/cassian.jpg",
+    "image": "characters/cassian.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -168,7 +168,7 @@
   {
     "id": 13,
     "name": "Azriel",
-    "image": "characters/azriel.jpg",
+    "image": "characters/azriel.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -183,7 +183,7 @@
   {
     "id": 14,
     "name": "Amren",
-    "image": "characters/amren.jpg",
+    "image": "characters/amren.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -198,7 +198,7 @@
   {
     "id": 15,
     "name": "Morrigan",
-    "image": "characters/morrigan.jpg",
+    "image": "characters/morrigan.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -212,7 +212,7 @@
   {
     "id": 16,
     "name": "Nuala",
-    "image": "characters/nuala.jpg",
+    "image": "characters/nuala.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -225,7 +225,7 @@
   {
     "id": 17,
     "name": "Cerridwen",
-    "image": "characters/cerridwen.jpg",
+    "image": "characters/cerridwen.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -238,7 +238,7 @@
   {
     "id": 18,
     "name": "El Tallador de Huesos",
-    "image": "characters/bone_carver.jpg",
+    "image": "characters/bone_carver.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -250,7 +250,7 @@
   {
     "id": 19,
     "name": "La Tejedora",
-    "image": "characters/the_weaver.jpg",
+    "image": "characters/the_weaver.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -262,7 +262,7 @@
   {
     "id": 20,
     "name": "Tarquin",
-    "image": "characters/tarquin.jpg",
+    "image": "characters/tarquin.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -275,7 +275,7 @@
   {
     "id": 21,
     "name": "Cresseida",
-    "image": "characters/cresseida.jpg",
+    "image": "characters/cresseida.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -287,7 +287,7 @@
   {
     "id": 22,
     "name": "Varian",
-    "image": "characters/varian.jpg",
+    "image": "characters/varian.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -299,7 +299,7 @@
   {
     "id": 23,
     "name": "Ianthe",
-    "image": "characters/ianthe.jpg",
+    "image": "characters/ianthe.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -311,7 +311,7 @@
   {
     "id": 24,
     "name": "Jurian",
-    "image": "characters/jurian.jpg",
+    "image": "characters/jurian.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -323,7 +323,7 @@
   {
     "id": 25,
     "name": "El Rey de Hybern",
-    "image": "characters/king_of_hybern.jpg",
+    "image": "characters/king_of_hybern.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -335,7 +335,7 @@
   {
     "id": 26,
     "name": "Keir",
-    "image": "characters/keir.jpg",
+    "image": "characters/keir.webp",
     "firstBookId": 2,
     "firstBookTitle": "Una corte de niebla y furia",
     "books": [
@@ -347,7 +347,7 @@
   {
     "id": 27,
     "name": "Thesan",
-    "image": "characters/thesan.jpg",
+    "image": "characters/thesan.webp",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
     "books": [
@@ -359,7 +359,7 @@
   {
     "id": 28,
     "name": "Helion",
-    "image": "characters/helion.jpg",
+    "image": "characters/helion.webp",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
     "books": [
@@ -372,7 +372,7 @@
   {
     "id": 29,
     "name": "Kallias",
-    "image": "characters/kallias.jpg",
+    "image": "characters/kallias.webp",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
     "books": [
@@ -384,7 +384,7 @@
   {
     "id": 30,
     "name": "Viviane",
-    "image": "characters/viviane.jpg",
+    "image": "characters/viviane.webp",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
     "books": [
@@ -396,7 +396,7 @@
   {
     "id": 31,
     "name": "Beron Vanserra",
-    "image": "characters/beron_vanserra.jpg",
+    "image": "characters/beron_vanserra.webp",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
     "books": [
@@ -407,7 +407,7 @@
   {
     "id": 32,
     "name": "Eris Vanserra",
-    "image": "characters/eris_vanserra.jpg",
+    "image": "characters/eris_vanserra.webp",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
     "books": [
@@ -419,7 +419,7 @@
   {
     "id": 33,
     "name": "Miryam",
-    "image": "characters/miryam.jpg",
+    "image": "characters/miryam.webp",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
     "books": [
@@ -430,7 +430,7 @@
   {
     "id": 34,
     "name": "Drakon",
-    "image": "characters/drakon.jpg",
+    "image": "characters/drakon.webp",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
     "books": [
@@ -441,7 +441,7 @@
   {
     "id": 35,
     "name": "Nuan",
-    "image": "characters/nuan.jpg",
+    "image": "characters/nuan.webp",
     "firstBookId": 3,
     "firstBookTitle": "Una corte de alas y ruina",
     "books": [
@@ -452,7 +452,7 @@
   {
     "id": 36,
     "name": "Clotho",
-    "image": "characters/clotho.jpg",
+    "image": "characters/clotho.webp",
     "firstBookId": 4,
     "firstBookTitle": "Una corte de hielo y estrellas",
     "books": [
@@ -464,7 +464,7 @@
   {
     "id": 37,
     "name": "Ressina",
-    "image": "characters/ressina.jpg",
+    "image": "characters/ressina.webp",
     "firstBookId": 4,
     "firstBookTitle": "Una corte de hielo y estrellas",
     "books": [
@@ -475,7 +475,7 @@
   {
     "id": 38,
     "name": "Gwyneth Berdara",
-    "image": "characters/gwyneth_berdara.jpg",
+    "image": "characters/gwyneth_berdara.webp",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
     "books": [
@@ -486,7 +486,7 @@
   {
     "id": 39,
     "name": "Emerie",
-    "image": "characters/emerie.jpg",
+    "image": "characters/emerie.webp",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
     "books": [
@@ -497,7 +497,7 @@
   {
     "id": 40,
     "name": "Merrill",
-    "image": "characters/merrill.jpg",
+    "image": "characters/merrill.webp",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
     "books": [
@@ -508,7 +508,7 @@
   {
     "id": 41,
     "name": "Bellius",
-    "image": "characters/bellius.jpg",
+    "image": "characters/bellius.webp",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
     "books": [
@@ -519,7 +519,7 @@
   {
     "id": 42,
     "name": "Briallyn",
-    "image": "characters/briallyn.jpg",
+    "image": "characters/briallyn.webp",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
     "books": [
@@ -530,7 +530,7 @@
   {
     "id": 43,
     "name": "Koschei",
-    "image": "characters/koschei.jpg",
+    "image": "characters/koschei.webp",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
     "books": [
@@ -541,7 +541,7 @@
   {
     "id": 44,
     "name": "Balthazar",
-    "image": "characters/balthazar.jpg",
+    "image": "characters/balthazar.webp",
     "firstBookId": 5,
     "firstBookTitle": "Una corte de llamas plateadas",
     "books": [
@@ -552,7 +552,7 @@
   {
     "id": 45,
     "name": "Celaena Sardothien",
-    "image": "characters/celaena_sardothien.jpg",
+    "image": "characters/celaena_sardothien.webp",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
     "books": [
@@ -565,7 +565,7 @@
   {
     "id": 46,
     "name": "Sam Cortland",
-    "image": "characters/sam_cortland.jpg",
+    "image": "characters/sam_cortland.webp",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
     "books": [
@@ -576,7 +576,7 @@
   {
     "id": 47,
     "name": "Arobynn Hamel",
-    "image": "characters/arobynn_hamel.jpg",
+    "image": "characters/arobynn_hamel.webp",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
     "books": [
@@ -591,7 +591,7 @@
   {
     "id": 48,
     "name": "Lysandra",
-    "image": "characters/lysandra.jpg",
+    "image": "characters/lysandra.webp",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
     "books": [
@@ -608,7 +608,7 @@
   {
     "id": 49,
     "name": "Ansel de Briarcliff",
-    "image": "characters/ansel_of_briarcliff.jpg",
+    "image": "characters/ansel_of_briarcliff.webp",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
     "books": [
@@ -621,7 +621,7 @@
   {
     "id": 50,
     "name": "Captain Rolfe",
-    "image": "characters/captain_rolfe.jpg",
+    "image": "characters/captain_rolfe.webp",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
     "books": [
@@ -634,7 +634,7 @@
   {
     "id": 51,
     "name": "Wesley",
-    "image": "characters/wesley.jpg",
+    "image": "characters/wesley.webp",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
     "books": [
@@ -645,7 +645,7 @@
   {
     "id": 52,
     "name": "El Maestro Mudo",
-    "image": "characters/mute_master.jpg",
+    "image": "characters/mute_master.webp",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
     "books": [
@@ -656,7 +656,7 @@
   {
     "id": 53,
     "name": "Chaol Westfall",
-    "image": "characters/chaol_westfall.jpg",
+    "image": "characters/chaol_westfall.webp",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
     "books": [
@@ -673,7 +673,7 @@
   {
     "id": 54,
     "name": "Dorian Havilliard",
-    "image": "characters/dorian_havilliard.jpg",
+    "image": "characters/dorian_havilliard.webp",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
     "books": [
@@ -689,7 +689,7 @@
   {
     "id": 55,
     "name": "Kaltain Rompier",
-    "image": "characters/kaltain_rompier.jpg",
+    "image": "characters/kaltain_rompier.webp",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
     "books": [
@@ -702,7 +702,7 @@
   {
     "id": 56,
     "name": "Cain",
-    "image": "characters/cain.jpg",
+    "image": "characters/cain.webp",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
     "books": [
@@ -713,7 +713,7 @@
   {
     "id": 57,
     "name": "Nox Owen",
-    "image": "characters/nox_owen.jpg",
+    "image": "characters/nox_owen.webp",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
     "books": [
@@ -724,7 +724,7 @@
   {
     "id": 58,
     "name": "Philippa",
-    "image": "characters/philippa.jpg",
+    "image": "characters/philippa.webp",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
     "books": [
@@ -737,7 +737,7 @@
   {
     "id": 59,
     "name": "Pies Ligeros",
-    "image": "characters/fleetfoot.jpg",
+    "image": "characters/fleetfoot.webp",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
     "books": [
@@ -753,7 +753,7 @@
   {
     "id": 60,
     "name": "El Rey de Adarlan",
-    "image": "characters/king_of_adarlan.jpg",
+    "image": "characters/king_of_adarlan.webp",
     "firstBookId": 7,
     "firstBookTitle": "Trono de cristal",
     "books": [
@@ -767,7 +767,7 @@
   {
     "id": 61,
     "name": "Nehemia Ytger",
-    "image": "characters/nehemia_ytger.jpg",
+    "image": "characters/nehemia_ytger.webp",
     "firstBookId": 8,
     "firstBookTitle": "Corona de medianoche",
     "books": [
@@ -778,7 +778,7 @@
   {
     "id": 62,
     "name": "Archer Finn",
-    "image": "characters/archer_finn.jpg",
+    "image": "characters/archer_finn.webp",
     "firstBookId": 8,
     "firstBookTitle": "Corona de medianoche",
     "books": [
@@ -789,7 +789,7 @@
   {
     "id": 63,
     "name": "Elena Galathynius",
-    "image": "characters/elena_galathynius.jpg",
+    "image": "characters/elena_galathynius.webp",
     "firstBookId": 8,
     "firstBookTitle": "Corona de medianoche",
     "books": [
@@ -802,7 +802,7 @@
   {
     "id": 64,
     "name": "Mort",
-    "image": "characters/mort.jpg",
+    "image": "characters/mort.webp",
     "firstBookId": 8,
     "firstBookTitle": "Corona de medianoche",
     "books": [
@@ -813,7 +813,7 @@
   {
     "id": 65,
     "name": "Aelin Galathynius",
-    "image": "characters/aelin_galathynius.jpg",
+    "image": "characters/aelin_galathynius.webp",
     "firstBookId": 6,
     "firstBookTitle": "La espada de la asesina",
     "books": [
@@ -830,7 +830,7 @@
   {
     "id": 66,
     "name": "Rowan Whitethorn",
-    "image": "characters/rowan_whitethorn.jpg",
+    "image": "characters/rowan_whitethorn.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -844,7 +844,7 @@
   {
     "id": 67,
     "name": "Aedion Ashryver",
-    "image": "characters/aedion_ashryver.jpg",
+    "image": "characters/aedion_ashryver.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -858,7 +858,7 @@
   {
     "id": 68,
     "name": "Maeve",
-    "image": "characters/maeve.jpg",
+    "image": "characters/maeve.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -872,7 +872,7 @@
   {
     "id": 69,
     "name": "Gavriel",
-    "image": "characters/gavriel.jpg",
+    "image": "characters/gavriel.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -886,7 +886,7 @@
   {
     "id": 70,
     "name": "Fenrys",
-    "image": "characters/fenrys.jpg",
+    "image": "characters/fenrys.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -900,7 +900,7 @@
   {
     "id": 71,
     "name": "Connall",
-    "image": "characters/connall.jpg",
+    "image": "characters/connall.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -914,7 +914,7 @@
   {
     "id": 72,
     "name": "Vaughan",
-    "image": "characters/vaughan.jpg",
+    "image": "characters/vaughan.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -925,7 +925,7 @@
   {
     "id": 73,
     "name": "Lorcan Salvaterre",
-    "image": "characters/lorcan_salvaterre.jpg",
+    "image": "characters/lorcan_salvaterre.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -939,7 +939,7 @@
   {
     "id": 74,
     "name": "Manon Blackbeak",
-    "image": "characters/manon_blackbeak.jpg",
+    "image": "characters/manon_blackbeak.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -953,7 +953,7 @@
   {
     "id": 75,
     "name": "Asterin Blackbeak",
-    "image": "characters/asterin_blackbeak.jpg",
+    "image": "characters/asterin_blackbeak.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -967,7 +967,7 @@
   {
     "id": 76,
     "name": "Elide Lochan",
-    "image": "characters/elide_lochan.jpg",
+    "image": "characters/elide_lochan.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -981,7 +981,7 @@
   {
     "id": 77,
     "name": "Vernon Lochan",
-    "image": "characters/vernon_lochan.jpg",
+    "image": "characters/vernon_lochan.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
     "books": [
@@ -992,7 +992,7 @@
   {
     "id": 78,
     "name": "Evangeline",
-    "image": "characters/evangeline.jpg",
+    "image": "characters/evangeline.webp",
     "firstBookId": 10,
     "firstBookTitle": "Reina de sombras",
     "books": [
@@ -1005,7 +1005,7 @@
   {
     "id": 79,
     "name": "Ren Allsbrook",
-    "image": "characters/ren_allsbrook.jpg",
+    "image": "characters/ren_allsbrook.webp",
     "firstBookId": 10,
     "firstBookTitle": "Reina de sombras",
     "books": [
@@ -1018,7 +1018,7 @@
   {
     "id": 80,
     "name": "Murtaugh Allsbrook",
-    "image": "characters/murtaugh_allsbrook.jpg",
+    "image": "characters/murtaugh_allsbrook.webp",
     "firstBookId": 10,
     "firstBookTitle": "Reina de sombras",
     "books": [
@@ -1030,7 +1030,7 @@
   {
     "id": 81,
     "name": "Nesryn Faliq",
-    "image": "characters/nesryn_faliq.jpg",
+    "image": "characters/nesryn_faliq.webp",
     "firstBookId": 10,
     "firstBookTitle": "Reina de sombras",
     "books": [
@@ -1044,7 +1044,7 @@
   {
     "id": 82,
     "name": "Gavin Havilliard",
-    "image": "characters/gavin_havilliard.jpg",
+    "image": "characters/gavin_havilliard.webp",
     "firstBookId": 11,
     "firstBookTitle": "Imperio de tormentas",
     "books": [
@@ -1056,7 +1056,7 @@
   {
     "id": 83,
     "name": "Ilias",
-    "image": "characters/ilias.jpg",
+    "image": "characters/ilias.webp",
     "firstBookId": 11,
     "firstBookTitle": "Imperio de tormentas",
     "books": [
@@ -1067,7 +1067,7 @@
   {
     "id": 84,
     "name": "The Yellowlegs Matron",
-    "image": "characters/yellowlegs_matron.jpg",
+    "image": "characters/yellowlegs_matron.webp",
     "firstBookId": 11,
     "firstBookTitle": "Imperio de tormentas",
     "books": [
@@ -1078,7 +1078,7 @@
   {
     "id": 85,
     "name": "Yrene Towers",
-    "image": "characters/yrene_towers.jpg",
+    "image": "characters/yrene_towers.webp",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
     "books": [
@@ -1090,7 +1090,7 @@
   {
     "id": 86,
     "name": "Sartaq",
-    "image": "characters/sartaq.jpg",
+    "image": "characters/sartaq.webp",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
     "books": [
@@ -1102,7 +1102,7 @@
   {
     "id": 87,
     "name": "Hasar",
-    "image": "characters/hasar.jpg",
+    "image": "characters/hasar.webp",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
     "books": [
@@ -1114,7 +1114,7 @@
   {
     "id": 88,
     "name": "Kashin",
-    "image": "characters/kashin.jpg",
+    "image": "characters/kashin.webp",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
     "books": [
@@ -1125,7 +1125,7 @@
   {
     "id": 89,
     "name": "Duva",
-    "image": "characters/duva.jpg",
+    "image": "characters/duva.webp",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
     "books": [
@@ -1136,7 +1136,7 @@
   {
     "id": 90,
     "name": "El Khagan",
-    "image": "characters/the_khagan.jpg",
+    "image": "characters/the_khagan.webp",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
     "books": [
@@ -1147,7 +1147,7 @@
   {
     "id": 91,
     "name": "Hafiza",
-    "image": "characters/hafiza.jpg",
+    "image": "characters/hafiza.webp",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
     "books": [
@@ -1158,7 +1158,7 @@
   {
     "id": 92,
     "name": "Kadara",
-    "image": "characters/kadara.jpg",
+    "image": "characters/kadara.webp",
     "firstBookId": 12,
     "firstBookTitle": "Torre del alba",
     "books": [
@@ -1169,7 +1169,7 @@
   {
     "id": 93,
     "name": "Erawan",
-    "image": "characters/erawan.jpg",
+    "image": "characters/erawan.webp",
     "firstBookId": 13,
     "firstBookTitle": "Reino de cenizas",
     "books": [
@@ -1180,7 +1180,7 @@
   {
     "id": 94,
     "name": "Las Trece",
-    "image": "characters/the_thirteen.jpg",
+    "image": "characters/the_thirteen.webp",
     "firstBookId": 13,
     "firstBookTitle": "Reino de cenizas",
     "books": [
@@ -1191,7 +1191,7 @@
   {
     "id": 95,
     "name": "Bryce Quinlan",
-    "image": "characters/bryce_quinlan.jpg",
+    "image": "characters/bryce_quinlan.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1204,7 +1204,7 @@
   {
     "id": 96,
     "name": "Hunt Athalar",
-    "image": "characters/hunt_athalar.jpg",
+    "image": "characters/hunt_athalar.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1217,7 +1217,7 @@
   {
     "id": 97,
     "name": "Danika Fendyr",
-    "image": "characters/danika_fendyr.jpg",
+    "image": "characters/danika_fendyr.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1228,7 +1228,7 @@
   {
     "id": 98,
     "name": "Ruhn Danaan",
-    "image": "characters/ruhn_danaan.jpg",
+    "image": "characters/ruhn_danaan.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1241,7 +1241,7 @@
   {
     "id": 99,
     "name": "Jesiba Roga",
-    "image": "characters/jesiba_roga.jpg",
+    "image": "characters/jesiba_roga.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1254,7 +1254,7 @@
   {
     "id": 100,
     "name": "Lehabah",
-    "image": "characters/lehabah.jpg",
+    "image": "characters/lehabah.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1267,7 +1267,7 @@
   {
     "id": 101,
     "name": "Syrinx",
-    "image": "characters/syrinx.jpg",
+    "image": "characters/syrinx.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1280,7 +1280,7 @@
   {
     "id": 102,
     "name": "Fury Axtar",
-    "image": "characters/fury_axtar.jpg",
+    "image": "characters/fury_axtar.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1293,7 +1293,7 @@
   {
     "id": 103,
     "name": "Juniper Andromeda",
-    "image": "characters/juniper_andromeda.jpg",
+    "image": "characters/juniper_andromeda.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1306,7 +1306,7 @@
   {
     "id": 104,
     "name": "Isaiah Tiberian",
-    "image": "characters/isaiah_tiberian.jpg",
+    "image": "characters/isaiah_tiberian.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1318,7 +1318,7 @@
   {
     "id": 105,
     "name": "Naomi",
-    "image": "characters/naomi.jpg",
+    "image": "characters/naomi.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1330,7 +1330,7 @@
   {
     "id": 106,
     "name": "Tharion Ketos",
-    "image": "characters/tharion_ketos.jpg",
+    "image": "characters/tharion_ketos.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1343,7 +1343,7 @@
   {
     "id": 107,
     "name": "Micah Domitus",
-    "image": "characters/micah_domitus.jpg",
+    "image": "characters/micah_domitus.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1354,7 +1354,7 @@
   {
     "id": 108,
     "name": "Aidas",
-    "image": "characters/aidas.jpg",
+    "image": "characters/aidas.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1367,7 +1367,7 @@
   {
     "id": 109,
     "name": "Apollion",
-    "image": "characters/apollion.jpg",
+    "image": "characters/apollion.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1380,7 +1380,7 @@
   {
     "id": 110,
     "name": "Connor Holstrom",
-    "image": "characters/connor_holstrom.jpg",
+    "image": "characters/connor_holstrom.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1391,7 +1391,7 @@
   {
     "id": 111,
     "name": "Ithan Holstrom",
-    "image": "characters/ithan_holstrom.jpg",
+    "image": "characters/ithan_holstrom.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1404,7 +1404,7 @@
   {
     "id": 112,
     "name": "Sabine Fendyr",
-    "image": "characters/sabine_fendyr.jpg",
+    "image": "characters/sabine_fendyr.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1417,7 +1417,7 @@
   {
     "id": 113,
     "name": "El Rey de Otoño",
-    "image": "characters/autumn_king.jpg",
+    "image": "characters/autumn_king.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1430,7 +1430,7 @@
   {
     "id": 114,
     "name": "Philip Briggs",
-    "image": "characters/philip_briggs.jpg",
+    "image": "characters/philip_briggs.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1441,7 +1441,7 @@
   {
     "id": 115,
     "name": "Declan Emrys",
-    "image": "characters/declan_emrys.jpg",
+    "image": "characters/declan_emrys.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1454,7 +1454,7 @@
   {
     "id": 116,
     "name": "Tristan Flynn",
-    "image": "characters/tristan_flynn.jpg",
+    "image": "characters/tristan_flynn.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1467,7 +1467,7 @@
   {
     "id": 117,
     "name": "Ember Quinlan",
-    "image": "characters/ember_quinlan.jpg",
+    "image": "characters/ember_quinlan.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1480,7 +1480,7 @@
   {
     "id": 118,
     "name": "Randall Silago",
-    "image": "characters/randall_silago.jpg",
+    "image": "characters/randall_silago.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1493,7 +1493,7 @@
   {
     "id": 119,
     "name": "Sandriel",
-    "image": "characters/sandriel.jpg",
+    "image": "characters/sandriel.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1504,7 +1504,7 @@
   {
     "id": 120,
     "name": "La Reina Víbora",
-    "image": "characters/viper_queen.jpg",
+    "image": "characters/viper_queen.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1517,7 +1517,7 @@
   {
     "id": 121,
     "name": "Sofie Renast",
-    "image": "characters/sofie_renast.jpg",
+    "image": "characters/sofie_renast.webp",
     "firstBookId": 14,
     "firstBookTitle": "Casa de tierra y sangre",
     "books": [
@@ -1529,7 +1529,7 @@
   {
     "id": 122,
     "name": "Lidia Cervos",
-    "image": "characters/sofie_renast.jpg",
+    "image": "characters/sofie_renast.webp",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
     "books": [
@@ -1541,7 +1541,7 @@
   {
     "id": 123,
     "name": "Cormac Donnall",
-    "image": "characters/cormac_donnall.jpg",
+    "image": "characters/cormac_donnall.webp",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
     "books": [
@@ -1552,7 +1552,7 @@
   {
     "id": 124,
     "name": "Hypaxia Enador",
-    "image": "characters/hypaxia_enador.jpg",
+    "image": "characters/hypaxia_enador.webp",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
     "books": [
@@ -1564,7 +1564,7 @@
   {
     "id": 125,
     "name": "Baxian Athalar",
-    "image": "characters/baxian_athalar.jpg",
+    "image": "characters/baxian_athalar.webp",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
     "books": [
@@ -1576,7 +1576,7 @@
   {
     "id": 126,
     "name": "Celestina",
-    "image": "characters/celestina.jpg",
+    "image": "characters/celestina.webp",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
     "books": [
@@ -1588,7 +1588,7 @@
   {
     "id": 127,
     "name": "Pollux Antonius",
-    "image": "characters/pollux_antonius.jpg",
+    "image": "characters/pollux_antonius.webp",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
     "books": [
@@ -1599,7 +1599,7 @@
   {
     "id": 128,
     "name": "Mordoc",
-    "image": "characters/mordoc.jpg",
+    "image": "characters/mordoc.webp",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
     "books": [
@@ -1611,7 +1611,7 @@
   {
     "id": 129,
     "name": "El Astronomer",
-    "image": "characters/the_astronomer.jpg",
+    "image": "characters/the_astronomer.webp",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
     "books": [
@@ -1622,7 +1622,7 @@
   {
     "id": 130,
     "name": "Pippa Spetsos",
-    "image": "characters/pippa_spetsos.jpg",
+    "image": "characters/pippa_spetsos.webp",
     "firstBookId": 15,
     "firstBookTitle": "Casa de cielo y aliento",
     "books": [
@@ -1633,7 +1633,7 @@
   {
     "id": 131,
     "name": "Sathia Flynn",
-    "image": "characters/sathia_flynn.jpg",
+    "image": "characters/sathia_flynn.webp",
     "firstBookId": 16,
     "firstBookTitle": "Casa de llama y sombra",
     "books": [
@@ -1644,7 +1644,7 @@
   {
     "id": 132,
     "name": "Thanatos",
-    "image": "characters/thanatos.jpg",
+    "image": "characters/thanatos.webp",
     "firstBookId": 16,
     "firstBookTitle": "Casa de llama y sombra",
     "books": [
@@ -1655,7 +1655,7 @@
   {
     "id": 133,
     "name": "Rigelus",
-    "image": "characters/rigelus.jpg",
+    "image": "characters/rigelus.webp",
     "firstBookId": 16,
     "firstBookTitle": "Casa de llama y sombra",
     "books": [
@@ -1666,7 +1666,7 @@
   {
     "id": 134,
     "name": "Sigrid",
-    "image": "characters/sigrid.jpg",
+    "image": "characters/sigrid.webp",
     "firstBookId": 16,
     "firstBookTitle": "Casa de llama y sombra",
     "books": [

@@ -115,6 +115,35 @@ fun SettingsScreen(
 
         Spacer(modifier = Modifier.height(16.dp))
 
+        Card(
+            modifier = Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(14.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.55f)
+            )
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp)
+            ) {
+                Text(
+                    text = "Sobre este proyecto",
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Medium
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = "Proyecto no oficial hecho por y para fans. Sin afiliación con Sarah J. Maas ni su editorial. Todo el contenido pertenece a sus respectivos propietarios.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.75f)
+                )
+            }
+
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
         // Zona de peligro
         Card(
             modifier = Modifier.fillMaxWidth(),
@@ -162,6 +191,8 @@ fun SettingsScreen(
                 .align(Alignment.CenterHorizontally)
                 .padding(bottom = 16.dp)
         )
+
+        Spacer(modifier = Modifier.height(16.dp))
     }
 }
 

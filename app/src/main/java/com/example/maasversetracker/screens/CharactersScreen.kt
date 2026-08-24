@@ -49,8 +49,8 @@ fun CharactersScreen(viewModel: MainViewModel) {
     val isLoading by viewModel.isLoading.collectAsState()
 
     var searchQuery by remember { mutableStateOf("") }
-    var revealedIds by remember { mutableStateOf(setOf<Int>()) }
     var pendingCharacter by remember { mutableStateOf<Character?>(null) }
+    val revealedIds by viewModel.revealedCharacters.collectAsState()
     var showDetail by remember { mutableStateOf<Character?>(null) }
 
     // Filtrado por nombre
@@ -132,7 +132,7 @@ fun CharactersScreen(viewModel: MainViewModel) {
             },
             confirmButton = {
                 TextButton(onClick = {
-                    revealedIds = revealedIds + character.id
+                    viewModel.revealCharacter(character.id)
                     pendingCharacter = null
                     showDetail = character
                 }) {
