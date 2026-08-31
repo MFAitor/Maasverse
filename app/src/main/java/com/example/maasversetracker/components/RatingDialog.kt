@@ -32,6 +32,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.maasversetracker.model.Book
 
+//Ventana emergente para valorar un libro una vez leido
 @Composable
 fun RatingDialog(
     book: Book,
@@ -40,10 +41,13 @@ fun RatingDialog(
     onSave: (Int) -> Unit,
     onClear: (() -> Unit)? = null
 ) {
+    //Variable para guargar la nota
     var selectedRating by remember { mutableIntStateOf(currentRating) }
 
+    //Ventana que muestra la informacion del libro
     AlertDialog(
         onDismissRequest = onDismiss,
+        //Titulo de la ventana
         title = {
             Column {
                 Text(
@@ -58,11 +62,13 @@ fun RatingDialog(
                 )
             }
         },
+        //Contenido de la ventana
         text = {
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier.fillMaxWidth()
             ) {
+                //Descripcion del libro
                 Text(
                     text = book.description,
                     style = MaterialTheme.typography.bodyMedium,
@@ -74,16 +80,19 @@ fun RatingDialog(
 
                 Spacer(modifier = Modifier.height(12.dp))
 
-                // Estrellas
+                //Estrellas
                 Row(
                     horizontalArrangement = Arrangement.Center,
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     for (i in 1..5) {
                         Icon(
+                            //Mostrar las estrellas llenas o vacias
                             imageVector = if (i <= selectedRating) Icons.Filled.Star else Icons.Outlined.StarBorder,
                             contentDescription = "$i estrellas",
+                            //Cambio de color de las estrellas
                             tint = if (i <= selectedRating) Color(0xFFC9A227) else MaterialTheme.colorScheme.onSurface.copy(alpha = 0.35f),
+                            //Al pulsar la estrella se actualiza la valoracion
                             modifier = Modifier
                                 .size(42.dp)
                                 .clickable { selectedRating = i }
@@ -92,6 +101,7 @@ fun RatingDialog(
                     }
                 }
 
+                //Mostrar valoracion numericamente
                 if (selectedRating > 0) {
                     Spacer(modifier = Modifier.height(8.dp))
                     Text(
@@ -102,9 +112,12 @@ fun RatingDialog(
                 }
             }
         },
+
+        //Boton para guardar la valoracion
         confirmButton = {
             Button(
                 onClick = {
+                    //Minimo se necesita una estrella
                     if (selectedRating > 0) onSave(selectedRating)
                 },
                 enabled = selectedRating > 0
@@ -112,13 +125,17 @@ fun RatingDialog(
                 Text("Guardar")
             }
         },
+
+        //Boton para quitar la valoracion si el libro ya tenia una antes
         dismissButton = {
             Row {
+                //Este boton solo aparece si el libro tiene valoracion
                 if (currentRating > 0 && onClear != null) {
                     TextButton(onClick = onClear) {
                         Text("Quitar nota")
                     }
                 }
+                //Boton para cerrar sin guardar cambios
                 TextButton(onClick = onDismiss) {
                     Text("Cancelar")
                 }

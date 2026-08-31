@@ -25,6 +25,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.example.maasversetracker.model.Book
 
+//Ventana emergente para la creacion de notas
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun NoteDialog(
@@ -32,19 +33,23 @@ fun NoteDialog(
     onDismiss: () -> Unit,
     onSave: (title: String, description: String, bookId: Int?, page: Int?) -> Unit
 ) {
+    //Variables que guardan todos los datos de las notas
     var title by remember { mutableStateOf("") }
     var description by remember { mutableStateOf("") }
     var selectedBookId by remember { mutableStateOf<Int?>(null) }
     var pageText by remember { mutableStateOf("") }
     var expanded by remember { mutableStateOf(false) }
 
+    //Variable que controla si el selector de libros esta abierto
     val selectedBookTitle = books.find { it.id == selectedBookId }?.title ?: "— Ninguno —"
 
+    //Ventana para introducir los datos de la nota
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text("Nueva nota") },
         text = {
             Column {
+                //Campo para titulo
                 OutlinedTextField(
                     value = title,
                     onValueChange = { title = it },
@@ -55,6 +60,7 @@ fun NoteDialog(
 
                 Spacer(modifier = Modifier.height(12.dp))
 
+                //Campo para descripcion de la nota
                 OutlinedTextField(
                     value = description,
                     onValueChange = { description = it },
@@ -71,6 +77,8 @@ fun NoteDialog(
                     expanded = expanded,
                     onExpandedChange = { expanded = it }
                 ) {
+
+                    //Campo de muestra de libro seleccionado
                     OutlinedTextField(
                         value = selectedBookTitle,
                         onValueChange = {},
@@ -81,10 +89,14 @@ fun NoteDialog(
                             .fillMaxWidth()
                             .menuAnchor()
                     )
+
+                    //Lista desplegable de todos los libros
                     ExposedDropdownMenu(
                         expanded = expanded,
                         onDismissRequest = { expanded = false }
                     ) {
+
+                        //Posibilidad de asociar la nota sin seleccionar ninguna libro en concreto
                         DropdownMenuItem(
                             text = { Text("— Ninguno —") },
                             onClick = {
@@ -92,6 +104,8 @@ fun NoteDialog(
                                 expanded = false
                             }
                         )
+
+                        //Se recorren los libros para cargarlos en la lista
                         books.forEach { book ->
                             DropdownMenuItem(
                                 text = { Text(book.title) },
@@ -106,8 +120,10 @@ fun NoteDialog(
 
                 Spacer(modifier = Modifier.height(12.dp))
 
+                //Campo para introducir la pagina
                 OutlinedTextField(
                     value = pageText,
+                    //Solo es posible escribir numeros en este campo
                     onValueChange = { pageText = it.filter { c -> c.isDigit() } },
                     label = { Text("Página (opcional)") },
                     singleLine = true,
@@ -116,9 +132,12 @@ fun NoteDialog(
                 )
             }
         },
+
+        //Guardar la nota
         confirmButton = {
             Button(
                 onClick = {
+                    //Se cromprueba que por lo menos la nota tenga titulo
                     if (title.isNotBlank()) {
                         onSave(
                             title.trim(),
@@ -133,6 +152,8 @@ fun NoteDialog(
                 Text("Guardar")
             }
         },
+
+        //Opcion de cerrar la creacion de la nota sin completar los datos
         dismissButton = {
             TextButton(onClick = onDismiss) {
                 Text("Cancelar")

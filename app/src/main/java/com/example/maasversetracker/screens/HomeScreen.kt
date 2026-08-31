@@ -41,18 +41,22 @@ import com.example.maasversetracker.viewmodel.MainViewModel
 import com.example.maasversetracker.R
 import com.example.maasversetracker.data.getCoverResource
 
-
+//Pantalla principal
 @Composable
 fun HomeScreen(viewModel: MainViewModel) {
+    //Varibales para obtener los libros y el estado de carga
     val books by viewModel.books.collectAsState()
     val isLoading by viewModel.isLoading.collectAsState()
 
+    //Obtener las valoraciones de los libros
     val ratings by viewModel.ratings.collectAsState()
+    //Guradar IDs de los libros valorados
     val readBookIds = ratings.keys
 
     //Variable para ir sumando notas
     val notes by viewModel.notes.collectAsState()
 
+    //Orden de los libros
     val seriesOrder = listOf("ACOTAR", "Trono de Cristal", "Ciudad Medialuna")
 
     Column(
@@ -76,21 +80,24 @@ fun HomeScreen(viewModel: MainViewModel) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // Contadores
+        //Contadores
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
+            //Tarjeta de libros leidos
             StatCard(
                 value = readBookIds.size.toString(),
                 label = "Leídos",
                 modifier = Modifier.weight(1f)
             )
+            //Tarjeta de libros pendientes
             StatCard(
                 value = (books.size - readBookIds.size).toString(),
                 label = "Pendientes",
                 modifier = Modifier.weight(1f)
             )
+            //Tarjeta de notas guardadas
             StatCard(
                 value = notes.size.toString(),
                 label = "Notas",
@@ -100,16 +107,20 @@ fun HomeScreen(viewModel: MainViewModel) {
 
         Spacer(modifier = Modifier.height(24.dp))
 
+        //Mensaje de carga
         if (isLoading) {
             Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                 Text("Cargando biblioteca...")
             }
         } else {
+            //Lista para mostrar las estanterias con las distintas sagas
             LazyColumn(
                 verticalArrangement = Arrangement.spacedBy(28.dp),
                 contentPadding = PaddingValues(bottom = 24.dp)
             ) {
+                //Se recorren las sagas en el orden indicado
                 seriesOrder.forEach { series ->
+                    //Libros de la saga actual
                     val seriesBooks = books.filter { it.series == series }
                     if (seriesBooks.isNotEmpty()) {
                         item {
@@ -126,6 +137,7 @@ fun HomeScreen(viewModel: MainViewModel) {
     }
 }
 
+//Configuracion de los contadores
 @Composable
 private fun StatCard(
     value: String,
@@ -158,12 +170,14 @@ private fun StatCard(
     }
 }
 
+//Estanterias para mostrar los libros de cada saga
 @Composable
 private fun SeriesShelf(
     seriesName: String,
     books: List<Book>,
     readBookIds: Set<Int>
 ) {
+    //Cada saga tiene un fondo distinto
     val backgroundRes = when (seriesName) {
         "ACOTAR" -> R.drawable.fondo_flores
         "Trono de Cristal" -> R.drawable.fondo_fuego
@@ -182,6 +196,7 @@ private fun SeriesShelf(
                 fontWeight = FontWeight.SemiBold
             )
             Spacer(modifier = Modifier.weight(1f))
+            //Se muestran cuantos libros de la saga han sido leidos
             Text(
                 text = "${books.count { it.id in readBookIds }}/${books.size}",
                 style = MaterialTheme.typography.labelMedium,
@@ -191,14 +206,14 @@ private fun SeriesShelf(
 
         Spacer(modifier = Modifier.height(10.dp))
 
-        // Estantería con imagen de fondo
+        //Estantería con imagen de fondo
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(140.dp)
                 .clip(RoundedCornerShape(12.dp))
         ) {
-            // Imagen de fondo
+            //Imagen de fondo
             if (backgroundRes != null) {
                 Image(
                     painter = painterResource(id = backgroundRes),
@@ -206,7 +221,7 @@ private fun SeriesShelf(
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.fillMaxSize()
                 )
-                // Capa oscura suave para que destaquen los libros
+                //Capa oscura suave para que destaquen los libros
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
@@ -220,7 +235,7 @@ private fun SeriesShelf(
                 )
             }
 
-            // Libros encima
+            //Libros encima
             LazyRow(
                 modifier = Modifier
                     .fillMaxSize()
@@ -236,6 +251,7 @@ private fun SeriesShelf(
     }
 }
 
+//Mostrar los libros leidos
 @Composable
 private fun BookSpine(
     book: Book

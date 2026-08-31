@@ -42,21 +42,58 @@ import coil.compose.AsyncImage
 import com.example.maasversetracker.data.characterImageRequest
 import com.example.maasversetracker.model.Character
 import com.example.maasversetracker.viewmodel.MainViewModel
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.ExposedDropdownMenuBox
+import androidx.compose.material3.ExposedDropdownMenuDefaults
 
+//Ventana con la lista de personajes
 @Composable
+@OptIn(ExperimentalMaterial3Api::class)
 fun CharactersScreen(viewModel: MainViewModel) {
+
+    //Variables para obtener los personajes
     val characters by viewModel.characters.collectAsState()
     val isLoading by viewModel.isLoading.collectAsState()
 
+    //Guardar el texto de la barra de busqueda
     var searchQuery by remember { mutableStateOf("") }
+
+    //Personajes pendientes de confirmar como vistos
     var pendingCharacter by remember { mutableStateOf<Character?>(null) }
+
+    //Personajes ya revelados
     val revealedIds by viewModel.revealedCharacters.collectAsState()
+
+    //Personaje cuyo estado descripción se está mostrando
     var showDetail by remember { mutableStateOf<Character?>(null) }
 
-    // Filtrado por nombre
+    //Variables para filtrar los personajes por sagas
+    val books by viewModel.books.collectAsState()
+
+    val sagaOptions = listOf("Todas", "ACOTAR", "Trono de Cristal", "Ciudad Medialuna")
+    var selectedSaga by remember { mutableStateOf("Todas") }
+    var sagaMenuExpanded by remember { mutableStateOf(false) }
+
+    // Filtrado por nombre y libro en el que aparecen
     val filteredCharacters = characters
-        .filter {
-            searchQuery.isBlank() || it.name.contains(searchQuery, ignoreCase = true)
+        .filter { character ->
+            val matchesName = searchQuery.isBlank() ||
+                    character.name.contains(searchQuery, ignoreCase = true)
+
+            val matchesSaga = if (selectedSaga == "Todas") {
+                true
+            } else {
+                val seriesBookIds = books
+                    .filter { it.series == selectedSaga }
+                    .map { it.id }
+                    .toSet()
+
+                character.firstBookId in seriesBookIds ||
+                        character.books.any { it in seriesBookIds }
+            }
+
+            matchesName && matchesSaga
         }
         .sortedBy { it.id }
 
@@ -80,7 +117,7 @@ fun CharactersScreen(viewModel: MainViewModel) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Barra de búsqueda
+        //Barra de búsqueda por nombre
         OutlinedTextField(
             value = searchQuery,
             onValueChange = { searchQuery = it },
@@ -90,21 +127,60 @@ fun CharactersScreen(viewModel: MainViewModel) {
             shape = RoundedCornerShape(12.dp)
         )
 
+        Spacer(modifier = Modifier.height(12.dp))
+
+        //Barra para seleccionar la saga a la que pertenecen los personajes
+        ExposedDropdownMenuBox(
+            expanded = sagaMenuExpanded,
+            onExpandedChange = { sagaMenuExpanded = it }
+        ) {
+            OutlinedTextField(
+                value = selectedSaga,
+                onValueChange = {},
+                readOnly = true,
+                label = { Text("Saga") },
+                trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = sagaMenuExpanded) },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .menuAnchor(),
+                shape = RoundedCornerShape(12.dp)
+            )
+            ExposedDropdownMenu(
+                expanded = sagaMenuExpanded,
+                onDismissRequest = { sagaMenuExpanded = false }
+            ) {
+                sagaOptions.forEach { option ->
+                    DropdownMenuItem(
+                        text = { Text(option) },
+                        onClick = {
+                            selectedSaga = option
+                            sagaMenuExpanded = false
+                        }
+                    )
+                }
+            }
+        }
+
         Spacer(modifier = Modifier.height(16.dp))
 
+        //Mostrar mensjae mientras se cargan personajes
         if (isLoading) {
             Text("Cargando personajes...")
+
+        //Mensaje para caso no personaje no existente
         } else if (filteredCharacters.isEmpty()) {
             Text(
                 text = "No se encontraron personajes",
                 color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.5f)
             )
         } else {
+            //Personajes filtrados
             LazyColumn(
                 verticalArrangement = Arrangement.spacedBy(8.dp),
                 contentPadding = PaddingValues(bottom = 24.dp)
             ) {
                 items(filteredCharacters) { character ->
+                    //Se comprueba si el personaja ha sido revelado
                     val isRevealed = character.id in revealedIds
 
                     CharacterItem(
@@ -122,7 +198,8 @@ fun CharactersScreen(viewModel: MainViewModel) {
             }
         }
     }
-    // Diálogo de aviso de spoiler
+
+    //Diálogo de aviso de spoiler
     pendingCharacter?.let { character ->
         AlertDialog(
             onDismissRequest = { pendingCharacter = null },
@@ -147,7 +224,7 @@ fun CharactersScreen(viewModel: MainViewModel) {
         )
     }
 
-    // Diálogo de detalle (cuando ya está revelado)
+    //Diálogo de detalle (cuando ya está revelado)
     showDetail?.let { character ->
         val context = LocalContext.current
 
@@ -159,7 +236,7 @@ fun CharactersScreen(viewModel: MainViewModel) {
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier.fillMaxWidth()
                 ) {
-                    // Imagen del personaje
+                    //Imagen del personaje
                     AsyncImage(
                         model = characterImageRequest(context, character.image),
                         contentDescription = character.name,
@@ -185,6 +262,7 @@ fun CharactersScreen(viewModel: MainViewModel) {
                     )
                 }
             },
+            //Botón para cerrar la descripcion del personaje
             confirmButton = {
                 TextButton(onClick = { showDetail = null }) {
                     Text("Cerrar")
@@ -194,6 +272,7 @@ fun CharactersScreen(viewModel: MainViewModel) {
     }
 }
 
+//Elemento para representar cada personaje
 @Composable
 private fun CharacterItem(
     character: Character,
@@ -201,6 +280,7 @@ private fun CharacterItem(
     onClick: () -> Unit
 ) {
 
+    //Se obtiene el context para poder mostrar la imagen del personaje
     val context = LocalContext.current
     Card(
         modifier = Modifier
@@ -265,6 +345,7 @@ private fun CharacterItem(
                 )
             }
 
+            //Para indicar el estado del personaje (revelado u oculto)
             Text(
                 text = if (isRevealed) "Revelado" else "🔒",
                 style = MaterialTheme.typography.labelSmall,

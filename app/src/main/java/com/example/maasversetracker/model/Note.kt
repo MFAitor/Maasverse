@@ -2,6 +2,7 @@ package com.example.maasversetracker.model
 
 import kotlinx.serialization.Serializable
 
+//Data class con los datos guardados de las notas
 @Serializable
 data class Note(
     val id: Long,

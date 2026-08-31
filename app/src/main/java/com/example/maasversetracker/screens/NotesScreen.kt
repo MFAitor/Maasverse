@@ -38,10 +38,13 @@ import com.example.maasversetracker.components.NoteDialog
 import com.example.maasversetracker.model.Note
 import com.example.maasversetracker.viewmodel.MainViewModel
 
+//Pantalla de creacion y muestra de notas
 @Composable
 fun NotesScreen(viewModel: MainViewModel) {
+    //Variables para guardar las notas cargadas desde el viewModel
     val notes by viewModel.notes.collectAsState()
     val books by viewModel.books.collectAsState()
+    //Controla si se muestra la ventana de creacion de nota
     var showDialog by remember { mutableStateOf(false) }
 
     Box(modifier = Modifier.fillMaxSize()) {
@@ -65,7 +68,9 @@ fun NotesScreen(viewModel: MainViewModel) {
 
             Spacer(modifier = Modifier.height(20.dp))
 
+            //Se comprueba si existen notas
             if (notes.isEmpty()) {
+                //Mensaje en caso de notas no creadas todavia
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -82,6 +87,7 @@ fun NotesScreen(viewModel: MainViewModel) {
                             text = "No tienes notas todavía",
                             color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.5f)
                         )
+                        //Se indica como crear notas
                         Text(
                             text = "Pulsa el + para crear una",
                             style = MaterialTheme.typography.bodySmall,
@@ -89,16 +95,20 @@ fun NotesScreen(viewModel: MainViewModel) {
                         )
                     }
                 }
+            //Se muestran las notas en caso de que existan
             } else {
+                //Se cargan las notas
                 LazyColumn(
                     verticalArrangement = Arrangement.spacedBy(12.dp),
                     contentPadding = PaddingValues(bottom = 88.dp)
                 ) {
                     items(notes.sortedByDescending { it.createdAt }) { note ->
+                        //Busqueda de nota por titulo
                         val bookTitle = books.find { it.id == note.bookId }?.title
                         NoteItem(
                             note = note,
                             bookTitle = bookTitle,
+                            //Eliminacion de nota
                             onDelete = { viewModel.deleteNote(note.id) }
                         )
                     }
@@ -106,7 +116,7 @@ fun NotesScreen(viewModel: MainViewModel) {
             }
         }
 
-        // Botón +
+        //Botón + de creacion de nota
         FloatingActionButton(
             onClick = { showDialog = true },
             modifier = Modifier
@@ -117,7 +127,7 @@ fun NotesScreen(viewModel: MainViewModel) {
         }
     }
 
-    // Diálogo de nueva nota
+    //Diálogo de nueva nota
     if (showDialog) {
         NoteDialog(
             books = books,
@@ -130,12 +140,14 @@ fun NotesScreen(viewModel: MainViewModel) {
     }
 }
 
+//Elemento para representar cada nota existente
 @Composable
 private fun NoteItem(
     note: Note,
     bookTitle: String?,
     onDelete: () -> Unit
 ) {
+    //Informacion de la nota
     Card(
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(14.dp),
@@ -169,6 +181,7 @@ private fun NoteItem(
                 }
             }
 
+            //Se muestra descripcion en caso de nota con datos
             if (note.description.isNotBlank()) {
                 Text(
                     text = note.description,

@@ -26,12 +26,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.maasversetracker.viewmodel.MainViewModel
 
+//Pantalla de ajustes de la aplicacion
 @Composable
 fun SettingsScreen(
     viewModel: MainViewModel,
     isDarkTheme: Boolean,
     onToggleTheme: () -> Unit
 ) {
+    //Se obtienen los datos necesarios desde el viewModel
     val books by viewModel.books.collectAsState()
     val characters by viewModel.characters.collectAsState()
     val ratings by viewModel.ratings.collectAsState()
@@ -52,7 +54,7 @@ fun SettingsScreen(
 
         Spacer(modifier = Modifier.height(24.dp))
 
-        // Tema
+        //Configuracion del tema
         Card(
             modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(14.dp),
@@ -79,6 +81,7 @@ fun SettingsScreen(
                         color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.55f)
                     )
                 }
+                //Interruptor para cambiar el tema
                 Switch(
                     checked = isDarkTheme,
                     onCheckedChange = { onToggleTheme() }
@@ -88,7 +91,7 @@ fun SettingsScreen(
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Estadísticas
+        //Apartado de estadísticas
         Card(
             modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(14.dp),
@@ -108,13 +111,17 @@ fun SettingsScreen(
                 )
                 Spacer(modifier = Modifier.height(12.dp))
 
+                //Libros leidos y el total de los mismos
                 StatRow("Libros leídos", "${ratings.size} / ${books.size}")
+
+                //Se muestra el numero de notas
                 StatRow("Notas creadas", notes.size.toString())
             }
         }
 
         Spacer(modifier = Modifier.height(16.dp))
 
+        //Informacion del proyecto
         Card(
             modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(14.dp),
@@ -144,7 +151,7 @@ fun SettingsScreen(
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Zona de peligro
+        //Zona de reseteo de datos
         Card(
             modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(14.dp),
@@ -169,6 +176,7 @@ fun SettingsScreen(
                     color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
                 )
                 Spacer(modifier = Modifier.height(12.dp))
+                //Boton de reseteo de la aplicacion
                 Button(
                     onClick = { viewModel.resetAllData() },
                     colors = ButtonDefaults.buttonColors(
@@ -183,6 +191,7 @@ fun SettingsScreen(
 
         Spacer(modifier = Modifier.weight(1f))
 
+        //Datos extra
         Text(
             text = "Maas Tracker · Desarrollado por Aitor Maceiras Franco",
             style = MaterialTheme.typography.labelSmall,
@@ -196,6 +205,7 @@ fun SettingsScreen(
     }
 }
 
+//Fila utilizada para mostrar estadisticas
 @Composable
 private fun StatRow(label: String, value: String) {
     Row(
@@ -204,6 +214,7 @@ private fun StatRow(label: String, value: String) {
             .padding(vertical = 4.dp),
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
+        //Nombre de la estadistica
         Text(
             text = label,
             style = MaterialTheme.typography.bodyMedium,

@@ -42,15 +42,18 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.getValue
 import com.example.maasversetracker.components.RatingDialog
 
+//Pantalla para mostrar los libros y poder valorarlos una vez leidos
 @Composable
 fun BooksScreen(
     viewModel: MainViewModel,
     onBookClick: (Book) -> Unit = {}
 ) {
+    //Variables para las valoraciones
     val ratings by viewModel.ratings.collectAsState()
     val books by viewModel.books.collectAsState()
     val isLoading by viewModel.isLoading.collectAsState()
-    //
+
+    //Libro seleccionado
     var selectedBook by remember { mutableStateOf<Book?>(null) }
 
     Column(
@@ -73,9 +76,11 @@ fun BooksScreen(
 
         Spacer(modifier = Modifier.height(20.dp))
 
+        //Mensaje en caso de carga
         if (isLoading) {
             Text("Cargando libros...")
         } else {
+            //Lista de los libros
             LazyColumn(
                 verticalArrangement = Arrangement.spacedBy(12.dp),
                 contentPadding = PaddingValues(bottom = 24.dp)
@@ -91,7 +96,7 @@ fun BooksScreen(
         }
     }
 
-    //
+    //Mostrar la pantalla para valorar el libro seleccionado
     selectedBook?.let { book ->
         val current = ratings[book.id] ?: 0
         RatingDialog(
@@ -102,6 +107,7 @@ fun BooksScreen(
                 viewModel.setRating(book.id, rating)
                 selectedBook = null
             },
+            //Opcion para poder eliminar valoraciones anteriores
             onClear = {
                 viewModel.clearRating(book.id)
                 selectedBook = null
@@ -110,6 +116,7 @@ fun BooksScreen(
     }
 }
 
+//Elemento que representa visualmente cada libro
 @Composable
 private fun BookItem(
     book: Book,
@@ -131,7 +138,7 @@ private fun BookItem(
                 .padding(12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            // Portada del libro
+            //Portada del libro
             Image(
                 painter = painterResource(id = getCoverResource(book.cover)),
                 contentDescription = book.title,
@@ -177,6 +184,7 @@ private fun BookItem(
 
                 Spacer(modifier = Modifier.height(4.dp))
 
+                //Valoracion del libro mediante estrellas
                 Text(
                     text = if (rating > 0) {
                         "★".repeat(rating) + "☆".repeat(5 - rating)
@@ -184,6 +192,8 @@ private fun BookItem(
                         "Sin puntuar"
                     },
                     style = MaterialTheme.typography.labelMedium,
+
+                    //Cambio de color al valorar
                     color = if (rating > 0) Color(0xFFC9A227)
                     else MaterialTheme.colorScheme.onSurface.copy(alpha = 0.4f)
                 )

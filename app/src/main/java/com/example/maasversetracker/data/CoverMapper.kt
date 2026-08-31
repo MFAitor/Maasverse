@@ -2,6 +2,7 @@ package com.example.maasversetracker.data
 
 import com.example.maasversetracker.R
 
+//Obtencion de las portadas
 fun getCoverResource(coverPath: String): Int {
     return when (coverPath) {
         "covers/a_court_of_thorns_and_roses.jpg" -> R.drawable.rosas_espinas
@@ -20,6 +21,7 @@ fun getCoverResource(coverPath: String): Int {
         "covers/house_of_earth_and_blood.jpg" -> R.drawable.casa_tierra_sangre
         "covers/house_of_sky_and_breath.jpg" -> R.drawable.casa_cielo_aliento
         "covers/house_of_flame_and_shadow.jpg" -> R.drawable.casa_llama_sombra
+        //Imagen por defecto en caso de error
         else -> R.drawable.cover_placeholder
     }
 }
