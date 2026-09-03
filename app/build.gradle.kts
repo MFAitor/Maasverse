@@ -63,4 +63,6 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.8.5")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
     implementation("io.coil-kt:coil-compose:2.7.0")
+    //Dependencias para ajustar la pantalla a distintos dispositivos
+    implementation("androidx.compose.material3:material3-window-size-class")
 }

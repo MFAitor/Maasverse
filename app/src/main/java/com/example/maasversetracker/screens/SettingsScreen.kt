@@ -25,6 +25,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.maasversetracker.viewmodel.MainViewModel
+import android.content.Intent
+import android.net.Uri
+import androidx.compose.material3.Button
+import androidx.compose.ui.platform.LocalContext
+import com.example.maasversetracker.data.openContactEmail
 
 //Pantalla de ajustes de la aplicacion
 @Composable
@@ -38,6 +43,9 @@ fun SettingsScreen(
     val characters by viewModel.characters.collectAsState()
     val ratings by viewModel.ratings.collectAsState()
     val notes by viewModel.notes.collectAsState()
+
+    //Variable para poder abrir el correo y enviar el mensaje
+    val context = LocalContext.current
 
     Column(
         modifier = Modifier
@@ -202,6 +210,14 @@ fun SettingsScreen(
         )
 
         Spacer(modifier = Modifier.height(16.dp))
+
+        //Boton para enviar infomacion de errores o sugerencias
+        Button(
+            onClick = { openContactEmail(context) },
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Contactar / reportar un error")
+        }
     }
 }
 
