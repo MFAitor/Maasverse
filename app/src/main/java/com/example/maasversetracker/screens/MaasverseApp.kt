@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -22,6 +23,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.maasversetracker.components.BottomBar
+import com.example.maasversetracker.components.SideRail
 import com.example.maasversetracker.ui.theme.MaasverseTrackerTheme
 import com.example.maasversetracker.viewmodel.MainViewModel
 
@@ -35,10 +37,12 @@ fun MaasverseApp(activity: Activity, viewModel: MainViewModel = viewModel()) {
 
     //Variables necesarias para ajustar a la pantalla del dispositivo
     val widthClass = calculateWindowSizeClass(activity).widthSizeClass
+
+    //val isWide = widthClass != WindowWidthSizeClass.Compact
     val isWide = widthClass != WindowWidthSizeClass.Compact
 
     //Variable para controlar el tema
-    var isDarkTheme by remember { mutableStateOf(true) }
+    var isDarkTheme by rememberSaveable { mutableStateOf(true) }
 
     //Variable para cambiar de una pestaña a otra
     val onNavigate: (String) -> Unit = { route ->
@@ -68,7 +72,7 @@ fun MaasverseApp(activity: Activity, viewModel: MainViewModel = viewModel()) {
                     .padding(innerPadding)
             ) {
                 if (isWide) {
-                    BottomBar(
+                    SideRail(
                         currentRoute = currentRoute,
                         onNavigate = onNavigate
                     )
@@ -79,7 +83,9 @@ fun MaasverseApp(activity: Activity, viewModel: MainViewModel = viewModel()) {
                     viewModel = viewModel,
                     isDarkTheme = isDarkTheme,
                     onToggleTheme = { isDarkTheme = !isDarkTheme },
-                    modifier = Modifier.weight(1f)
+                    modifier = Modifier
+                        .weight(1f)
+                        .fillMaxSize()
                 )
             }
         }
