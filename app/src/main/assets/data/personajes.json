@@ -938,7 +938,7 @@
   },
   {
     "id": 74,
-    "name": "Manon Blackbeak",
+    "name": "Manon Pico Negro",
     "image": "characters/manon_blackbeak.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
@@ -952,7 +952,7 @@
   },
   {
     "id": 75,
-    "name": "Asterin Blackbeak",
+    "name": "Asterin Pico Negro",
     "image": "characters/asterin_blackbeak.webp",
     "firstBookId": 9,
     "firstBookTitle": "Heredera de fuego",
@@ -1186,7 +1186,7 @@
     "books": [
       13
     ],
-    "description": "El grupo de élite de brujas leales a Manon Blackbeak. Su sacrificio y lealtad son fundamentales en la batalla final."
+    "description": "El grupo de élite de brujas leales a Manon Pico Negro. Su sacrificio y lealtad son fundamentales en la batalla final."
   },
   {
     "id": 95,
@@ -1212,7 +1212,7 @@
       15,
       16
     ],
-    "description": "Ángel caído conocido como el Umbra Mortis. Esclavo de Micah Domitus y uno de los guerreros más letales de Midgard."
+    "description": "Ángel caído que trabaja para los Arcángeles, y uno de los asesinos más letales de Midgard, conocido como el Umbra Mortis."
   },
   {
     "id": 97,
@@ -1223,7 +1223,7 @@
     "books": [
       14
     ],
-    "description": "Alfa de la Manada de los Demonios y mejor amiga de Bryce. Heredera del linaje Fendyr y miembro de los Auxiliares."
+    "description": "Alfa de la Manada de Diablos y mejor amiga de Bryce. Heredera del linaje Fendyr y miembro de los Auxiliares."
   },
   {
     "id": 98,
@@ -1249,7 +1249,7 @@
       15,
       16
     ],
-    "description": "Bruja y propietaria de la Galería de Antiquidades. Jefa de Bryce y poseedora de un pasado oscuro y poderoso."
+    "description": "Bruja poderosa. Propietaria de la Galería de Antigüedades y jefa de Bryce."
   },
   {
     "id": 100,
@@ -1262,7 +1262,7 @@
       15,
       16
     ],
-    "description": "Espíritu de fuego esclava que vive en el sótano de la Galería. Leal a Bryce y adicta a las telenovelas."
+    "description": "Espíritu de fuego esclava que vive en el sótano de la Galería de Antigüedades. Leal a Bryce y adicta a las telenovelas."
   },
   {
     "id": 101,
@@ -1275,7 +1275,7 @@
       15,
       16
     ],
-    "description": "Chimera de compañía de Bryce. Glotón, leal y muy protector."
+    "description": "Quimera de compañía de Bryce. Glotón, leal y muy protector."
   },
   {
     "id": 102,
@@ -1288,7 +1288,7 @@
       15,
       16
     ],
-    "description": "Asesina profesional y una de las mejores amigas de Bryce. Extremadamente letal y de pasado misterioso."
+    "description": "Asesina profesional y una de las mejores amigas de Bryce y Juniper. Extremadamente letal y de pasado misterioso."
   },
   {
     "id": 103,
@@ -1301,7 +1301,7 @@
       15,
       16
     ],
-    "description": "Bailarina de ballet y mejor amiga de Bryce. Vampira de la Casa de la Noche."
+    "description": "Fauna bailarina de ballet y mejor amiga de Bryce y Fury."
   },
   {
     "id": 104,
@@ -1386,7 +1386,7 @@
     "books": [
       14
     ],
-    "description": "Lobo de la Manada de los Demonios y novio de Danika. Miembro de los Auxiliares."
+    "description": "Lobo de la Manada de Diablos y miembro de los Auxiliares. Enamorado profundamente de Bryce."
   },
   {
     "id": 111,
@@ -1399,7 +1399,7 @@
       15,
       16
     ],
-    "description": "Hermano menor de Connor. Lobo que queda devastado tras la masacre de la manada."
+    "description": "Hermano menor de Connor, joven de espíritu valiente y luchador."
   },
   {
     "id": 112,
@@ -1583,7 +1583,7 @@
       15,
       16
     ],
-    "description": "Arcángel y nueva Gobernadora de Valbara tras la muerte de Micah. Más moderada que su predecesor."
+    "description": "Arcángel y nueva Gobernadora de Valbara. Lidera de forma más moderada que su predecesor."
   },
   {
     "id": 127,
@@ -1606,7 +1606,7 @@
       15,
       16
     ],
-    "description": "Demi-fae al servicio de Lidia Cervos. Leal, brutal y con un fuerte sentido del deber hacia su comandante."
+    "description": "Semi-fae al servicio de Lidia Cervos. Leal, brutal y con un fuerte sentido del deber hacia su comandante."
   },
   {
     "id": 129,
