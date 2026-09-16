@@ -106,7 +106,19 @@ private fun AppNavHost(
         modifier = modifier
     ) {
         composable(Screen.Home.route) {
-            HomeScreen(viewModel = viewModel)
+            HomeScreen(
+                viewModel = viewModel,
+                onSeriesClick = { saga ->
+                    viewModel.setSelectedSaga(saga)
+                    navController.navigate(Screen.Characters.route) {
+                        popUpTo(navController.graph.startDestinationId) {
+                            saveState = true
+                        }
+                        launchSingleTop = true
+                        restoreState = true
+                    }
+                }
+            )
         }
         composable(Screen.Books.route) {
             BooksScreen(viewModel = viewModel)

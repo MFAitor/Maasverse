@@ -16,6 +16,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FloatingActionButton
@@ -44,6 +45,10 @@ fun NotesScreen(viewModel: MainViewModel) {
     //Variables para guardar las notas cargadas desde el viewModel
     val notes by viewModel.notes.collectAsState()
     val books by viewModel.books.collectAsState()
+
+    //Agregar variable para poder editar las notas existentes
+    var editingNote by remember { mutableStateOf<Note?>(null) }
+
     //Controla si se muestra la ventana de creacion de nota
     var showDialog by remember { mutableStateOf(false) }
 
@@ -109,7 +114,12 @@ fun NotesScreen(viewModel: MainViewModel) {
                             note = note,
                             bookTitle = bookTitle,
                             //Eliminacion de nota
-                            onDelete = { viewModel.deleteNote(note.id) }
+                            onDelete = { viewModel.deleteNote(note.id) },
+                            //Edicion de nota
+                            onEdit = {
+                                editingNote = note
+                                showDialog = true
+                            }
                         )
                     }
                 }
@@ -118,7 +128,10 @@ fun NotesScreen(viewModel: MainViewModel) {
 
         //Botón + de creacion de nota
         FloatingActionButton(
-            onClick = { showDialog = true },
+            onClick = {
+                editingNote = null
+                showDialog = true
+            },
             modifier = Modifier
                 .align(Alignment.BottomEnd)
                 .padding(20.dp)
@@ -131,10 +144,27 @@ fun NotesScreen(viewModel: MainViewModel) {
     if (showDialog) {
         NoteDialog(
             books = books,
-            onDismiss = { showDialog = false },
-            onSave = { title, description, bookId, page ->
-                viewModel.addNote(title, description, bookId, page)
+            existingNote = editingNote,
+            onDismiss = {
                 showDialog = false
+                editingNote = null
+            },
+            onSave = { title, description, bookId, page ->
+                val current = editingNote
+                if (current == null) {
+                    viewModel.addNote(title, description, bookId, page)
+                } else {
+                    viewModel.updateNote(
+                        current.copy(
+                            title = title,
+                            description = description,
+                            bookId = bookId,
+                            page = page
+                        )
+                    )
+                }
+                showDialog = false
+                editingNote = null
             }
         )
     }
@@ -145,7 +175,8 @@ fun NotesScreen(viewModel: MainViewModel) {
 private fun NoteItem(
     note: Note,
     bookTitle: String?,
-    onDelete: () -> Unit
+    onDelete: () -> Unit,
+    onEdit: () -> Unit
 ) {
     //Informacion de la nota
     Card(
@@ -172,6 +203,12 @@ private fun NoteItem(
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
+                IconButton(onClick = onEdit) {
+                    Icon(
+                        imageVector = Icons.Default.Edit,
+                        contentDescription = "Editar"
+                    )
+                }
                 IconButton(onClick = onDelete) {
                     Icon(
                         imageVector = Icons.Default.Delete,

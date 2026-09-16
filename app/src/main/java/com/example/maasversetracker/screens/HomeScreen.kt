@@ -2,6 +2,7 @@ package com.example.maasversetracker.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -43,7 +44,10 @@ import com.example.maasversetracker.data.getCoverResource
 
 //Pantalla principal
 @Composable
-fun HomeScreen(viewModel: MainViewModel) {
+fun HomeScreen(
+    viewModel: MainViewModel,
+    onSeriesClick: (String) -> Unit = {}
+) {
     //Varibales para obtener los libros y el estado de carga
     val books by viewModel.books.collectAsState()
     val isLoading by viewModel.isLoading.collectAsState()
@@ -127,7 +131,9 @@ fun HomeScreen(viewModel: MainViewModel) {
                             SeriesShelf(
                                 seriesName = series,
                                 books = seriesBooks,
-                                readBookIds = readBookIds
+                                readBookIds = readBookIds,
+                                //Al pulsar en la caja de cada saga abrirá sus personajes
+                                onClick = { onSeriesClick(series) }
                             )
                         }
                     }
@@ -175,7 +181,8 @@ private fun StatCard(
 private fun SeriesShelf(
     seriesName: String,
     books: List<Book>,
-    readBookIds: Set<Int>
+    readBookIds: Set<Int>,
+    onClick: () -> Unit
 ) {
     //Cada saga tiene un fondo distinto
     val backgroundRes = when (seriesName) {
@@ -212,6 +219,7 @@ private fun SeriesShelf(
                 .fillMaxWidth()
                 .height(140.dp)
                 .clip(RoundedCornerShape(12.dp))
+                .clickable { onClick() }
         ) {
             //Imagen de fondo
             if (backgroundRes != null) {

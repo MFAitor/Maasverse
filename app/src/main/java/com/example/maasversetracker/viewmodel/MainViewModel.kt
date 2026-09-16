@@ -39,6 +39,10 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     private val _revealedCharacters = MutableStateFlow<Set<Int>>(emptySet())
     val revealedCharacters: StateFlow<Set<Int>> = _revealedCharacters.asStateFlow()
 
+    //Añado variables para saber de que saga queremos ver los personajes al pulsar en ella
+    private val _selectedSaga = MutableStateFlow("Todas")
+    val selectedSaga: StateFlow<String> = _selectedSaga.asStateFlow()
+
     //Aquellas funciones que lanzamos con el inicio de la app
     init {
         loadData()
@@ -156,5 +160,9 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
     fun isCharacterRevealed(characterId: Int): Boolean {
         return characterId in _revealedCharacters.value
+    }
+
+    fun setSelectedSaga(saga: String) {
+        _selectedSaga.value = saga
     }
 }

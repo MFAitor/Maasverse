@@ -24,20 +24,22 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.example.maasversetracker.model.Book
+import com.example.maasversetracker.model.Note
 
 //Ventana emergente para la creacion de notas
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun NoteDialog(
     books: List<Book>,
+    existingNote: Note? = null,
     onDismiss: () -> Unit,
     onSave: (title: String, description: String, bookId: Int?, page: Int?) -> Unit
 ) {
     //Variables que guardan todos los datos de las notas
-    var title by remember { mutableStateOf("") }
-    var description by remember { mutableStateOf("") }
-    var selectedBookId by remember { mutableStateOf<Int?>(null) }
-    var pageText by remember { mutableStateOf("") }
+    var title by remember { mutableStateOf(existingNote?.title ?: "") }
+    var description by remember { mutableStateOf(existingNote?.description ?: "") }
+    var selectedBookId by remember { mutableStateOf(existingNote?.bookId) }
+    var pageText by remember { mutableStateOf(existingNote?.page?.toString() ?: "") }
     var expanded by remember { mutableStateOf(false) }
 
     //Variable que controla si el selector de libros esta abierto
@@ -46,7 +48,7 @@ fun NoteDialog(
     //Ventana para introducir los datos de la nota
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Nueva nota") },
+        title = { Text(if (existingNote == null) "Nueva nota" else "Editar nota") },
         text = {
             Column {
                 //Campo para titulo

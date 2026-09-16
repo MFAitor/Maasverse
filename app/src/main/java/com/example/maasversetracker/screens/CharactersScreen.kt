@@ -72,7 +72,7 @@ fun CharactersScreen(viewModel: MainViewModel) {
     val books by viewModel.books.collectAsState()
 
     val sagaOptions = listOf("Todas", "ACOTAR", "Trono de Cristal", "Ciudad Medialuna")
-    var selectedSaga by remember { mutableStateOf("Todas") }
+    val selectedSaga by viewModel.selectedSaga.collectAsState()
     var sagaMenuExpanded by remember { mutableStateOf(false) }
 
     // Filtrado por nombre y libro en el que aparecen
@@ -153,7 +153,7 @@ fun CharactersScreen(viewModel: MainViewModel) {
                     DropdownMenuItem(
                         text = { Text(option) },
                         onClick = {
-                            selectedSaga = option
+                            viewModel.setSelectedSaga(option)
                             sagaMenuExpanded = false
                         }
                     )
