@@ -27,7 +27,12 @@ import androidx.compose.ui.unit.dp
 import com.example.maasversetracker.viewmodel.MainViewModel
 import android.content.Intent
 import android.net.Uri
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import com.example.maasversetracker.data.openContactEmail
 
@@ -43,6 +48,9 @@ fun SettingsScreen(
     val characters by viewModel.characters.collectAsState()
     val ratings by viewModel.ratings.collectAsState()
     val notes by viewModel.notes.collectAsState()
+
+    //Mostrar el mensaje de confirmacion de reseteo
+    var showResetDialog by remember { mutableStateOf(false) }
 
     //Variable para poder abrir el correo y enviar el mensaje
     val context = LocalContext.current
@@ -186,7 +194,7 @@ fun SettingsScreen(
                 Spacer(modifier = Modifier.height(12.dp))
                 //Boton de reseteo de la aplicacion
                 Button(
-                    onClick = { viewModel.resetAllData() },
+                    onClick = { showResetDialog = true },
                     colors = ButtonDefaults.buttonColors(
                         containerColor = MaterialTheme.colorScheme.error
                     ),
@@ -218,6 +226,31 @@ fun SettingsScreen(
         ) {
             Text("Contactar / reportar un error")
         }
+    }
+
+    if (showResetDialog) {
+        AlertDialog(
+            onDismissRequest = { showResetDialog = false },
+            title = { Text("¿Borrar todos los datos?") },
+            text = {
+                Text("Se eliminarán puntuaciones, notas y personajes revelados. Esta acción no se puede deshacer.")
+            },
+            confirmButton = {
+                TextButton(
+                    onClick = {
+                        viewModel.resetAllData()
+                        showResetDialog = false
+                    }
+                ) {
+                    Text("Borrar", color = MaterialTheme.colorScheme.error)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showResetDialog = false }) {
+                    Text("Cancelar")
+                }
+            }
+        )
     }
 }
 

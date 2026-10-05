@@ -29,6 +29,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -47,10 +48,11 @@ fun NotesScreen(viewModel: MainViewModel) {
     val books by viewModel.books.collectAsState()
 
     //Agregar variable para poder editar las notas existentes
-    var editingNote by remember { mutableStateOf<Note?>(null) }
+    var editingNoteId by rememberSaveable { mutableStateOf<Long?>(null) }
+    val editingNote = notes.find { it.id == editingNoteId }
 
     //Controla si se muestra la ventana de creacion de nota
-    var showDialog by remember { mutableStateOf(false) }
+    var showDialog by rememberSaveable { mutableStateOf(false) }
 
     Box(modifier = Modifier.fillMaxSize()) {
         Column(
@@ -117,7 +119,7 @@ fun NotesScreen(viewModel: MainViewModel) {
                             onDelete = { viewModel.deleteNote(note.id) },
                             //Edicion de nota
                             onEdit = {
-                                editingNote = note
+                                editingNoteId = note.id
                                 showDialog = true
                             }
                         )
@@ -129,7 +131,7 @@ fun NotesScreen(viewModel: MainViewModel) {
         //Botón + de creacion de nota
         FloatingActionButton(
             onClick = {
-                editingNote = null
+                editingNoteId = null
                 showDialog = true
             },
             modifier = Modifier
@@ -147,7 +149,7 @@ fun NotesScreen(viewModel: MainViewModel) {
             existingNote = editingNote,
             onDismiss = {
                 showDialog = false
-                editingNote = null
+                editingNoteId = null
             },
             onSave = { title, description, bookId, page ->
                 val current = editingNote
@@ -164,7 +166,7 @@ fun NotesScreen(viewModel: MainViewModel) {
                     )
                 }
                 showDialog = false
-                editingNote = null
+                editingNoteId = null
             }
         )
     }

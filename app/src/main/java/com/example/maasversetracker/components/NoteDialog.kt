@@ -19,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
@@ -36,10 +37,10 @@ fun NoteDialog(
     onSave: (title: String, description: String, bookId: Int?, page: Int?) -> Unit
 ) {
     //Variables que guardan todos los datos de las notas
-    var title by remember { mutableStateOf(existingNote?.title ?: "") }
-    var description by remember { mutableStateOf(existingNote?.description ?: "") }
-    var selectedBookId by remember { mutableStateOf(existingNote?.bookId) }
-    var pageText by remember { mutableStateOf(existingNote?.page?.toString() ?: "") }
+    var title by rememberSaveable { mutableStateOf(existingNote?.title ?: "") }
+    var description by rememberSaveable { mutableStateOf(existingNote?.description ?: "") }
+    var selectedBookId by rememberSaveable { mutableStateOf(existingNote?.bookId) }
+    var pageText by rememberSaveable { mutableStateOf(existingNote?.page?.toString() ?: "") }
     var expanded by remember { mutableStateOf(false) }
 
     //Variable que controla si el selector de libros esta abierto
